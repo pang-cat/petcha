@@ -834,3 +834,125 @@ a:visited {
   background-color: #E04651;
   border-radius: 5px;
 }
+
+/****************DOWNLOAD PAGE END****************/
+
+
+
+
+/****************ABOUT US PAGE****************/
+
+.au-main-section {
+  margin:auto;
+}
+
+.au-main-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 1160px;
+  height: 650px;
+
+  margin: 50px auto auto auto;
+}
+
+.au-main-section-texts {
+  color: #1E202C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 440px;
+
+  margin: 150px auto auto auto;
+}
+
+.au-main-section-texts h1 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 96px;
+  margin: 0 0 10px 0;
+
+  line-height: 75px;
+}
+
+.au-main-section-texts p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0;
+
+  line-height: 24px;
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.au-main-section-img {
+  width: 1160px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+.app-intro-brand{
+  width: 400px;
+  height: 400px;
+
+  margin: 250px auto 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+.app-intro-logo{
+  width: 130px;
+  height: 130px;
+  border-radius: 16px;
+
+  background-color: #E97534;
+}
+
+.app-intro-brand h1 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 96px;
+  margin: 40px 0 0 0;
+
+  line-height: 50px;
+
+  color: #1E202C;
+}
+
+.app-intro-brand p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+  color: #1E202C;
+
+  margin: 20px 0 0 0;
+
+  line-height: 24px;
+
+  width: 508px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/****************ABOUT US PAGE END****************/
