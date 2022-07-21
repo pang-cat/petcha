@@ -904,55 +904,214 @@ a:visited {
   z-index: -1;
 }
 
-.app-intro-brand{
-  width: 400px;
-  height: 400px;
+.line-separator{
+  width:860px;
+  height:2px;
 
-  margin: 250px auto 0 auto;
+  background-color: #E97534;
+
+  margin:75px auto 0 auto;
+}
+
+/*********/
+
+.au-study-section-texts {
+  color: #1E202C;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  width: 940px;
+
+  margin: 75px auto 100px auto;
 }
 
-.app-intro-logo{
-  width: 130px;
-  height: 130px;
-  border-radius: 16px;
+.au-study-section-texts h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
 
-  background-color: #E97534;
+  line-height: 32px;
+
+  margin: 0 0 10px 0;
 }
 
-.app-intro-brand h1 {
-  font-family: 'Dongle', sans-serif;
-  font-size: 96px;
-  margin: 40px 0 0 0;
-
-  line-height: 50px;
-
-  color: #1E202C;
-}
-
-.app-intro-brand p {
+.au-study-section-texts p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  text-align: center;
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 75px;
 
-  color: #1E202C;
-
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
 
   line-height: 24px;
-
-  width: 508px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
+.au-study-section-tags{
+  margin: 30px auto 0 0;
+  color: #1e202c8f;
+}
+
+.au-study-section-texts h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+
+  margin: 0 auto 0 0;
+
+  line-height: 24px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.p-bold{
+  font-weight: 700;
+  padding-right:10px;
+}
+
+
+/*********/
+
+
+.au-pangcat-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 1160px;
+
+  margin: 75px auto 100px auto;
+}
+
+.au-pangcat-section-img{
+  width: 1160px;
+  height: 650px;
+
+  background-color: #1E202C;
+
+  margin: auto;
+}
+
+
+.au-pangcat-section-texts {
+  color: #1E202C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+
+  margin: 150px auto 0 auto;
+}
+
+.au-pangcat-section-texts h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+
+  line-height: 32px;
+
+  margin: 0 0 10px 0;
+}
+
+.au-pangcat-section-texts p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 75px;
+
+  margin: 30px 0 0 0;
+
+  line-height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/*********/
+
+
+.au-team-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 1160px;
+
+  margin: 75px auto 100px auto;
+}
+
+.au-team-section-texts {
+  color: #1E202C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+
+  margin: 0 auto 100px auto;
+}
+
+.au-team-section-texts h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+
+  line-height: 32px;
+
+  margin: 0 0 10px 0;
+}
+
+.au-team-carousel-gallery{
+  width: 1160px;
+  height: 520px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.au-team-carousel-cont{
+  width:1850px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+.au-team-carousel-card{
+  width: 350px;
+  height: 520px;
+
+  background-color: #1E202C;
+
+  border-radius: 16px;
+}
+
 
 /****************ABOUT US PAGE END****************/
