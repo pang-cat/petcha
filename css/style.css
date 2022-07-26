@@ -1322,3 +1322,67 @@ a:visited {
 
 
 /****************ABOUT PETCHA PAGE END****************/
+
+
+
+/****************PRIVACY POLICY PAGE****************/
+
+.body-priv {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+
+  margin: 0;
+  width: 100%;
+}
+
+.priv-main{
+  width: 1160px;
+
+  margin: auto;
+}
+
+.priv-title-section h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: justify;
+
+  line-height: 56px;
+
+  margin: 75px 0 0 0;
+}
+
+.priv-title-section p{
+  margin: 0;
+}
+
+.priv-title-section p,
+.priv-texts p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+  line-height: 24px;
+}
+
+.priv-texts p{
+  margin: 0 0 30px 0;
+
+  width: 1000px;
+}
+
+.priv-texts{
+  margin: 0 0 175px 0;
+}
+
+.line-separator-side{
+  width:1160px;
+  height:2px;
+
+  background-color: #E97534;
+
+  margin:30px auto 50px auto;
+}
+
+/****************PRIVACY POLICY PAGE END****************/
