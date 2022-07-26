@@ -1,4 +1,7 @@
 /* black #1E202C */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -205,11 +208,14 @@ a:visited {
   height: 525px;
 
 
-  margin: 60px auto 240px auto;
+  margin: 60px auto 100px auto;
 }
 
 /**********LANDING SECTION END***********/
 
+#index-feature{
+  margin: 0 0 140px 0;
+}
 
 /**********LANDING FEATURES SECTION***********/
 
