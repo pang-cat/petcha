@@ -42,7 +42,7 @@ a:visited {
 
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 
   width: 1424px;
 
@@ -50,29 +50,41 @@ a:visited {
   padding: 0%;
 }
 
-.brand,
-.brand a:visited {
-  color: red;
-  font-family: 'Dongle';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 30px;
-
+.brand{
   margin-right: 50px;
+  height: 24px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.brand a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand,
+.brand a:visited,
+.brand a{
+  color: #E97534;
+  font-family: 'Dongle';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.brand span{
+  line-height: 18px;
+  height: 12px;
+
+  margin-left: 5px;
+}
+
 .logo {
   width: 24px;
   height: 24px;
-
-  background-color: #E97534;
-
-  margin: 0;
 }
 
 .nav-item {
@@ -119,7 +131,7 @@ a:visited {
   width: 176px;
   height: 40px;
 
-  background-color: #CC7060;
+  background-color: #E97534;
   border-radius: 16px;
 
   display: flex;
@@ -462,9 +474,6 @@ a:visited {
 .app-intro-logo{
   width: 130px;
   height: 130px;
-  border-radius: 16px;
-
-  background-color: #E97534;
 }
 
 .app-intro-brand h1 {
@@ -548,15 +557,17 @@ a:visited {
   width: 20px;
   height: 20px;
   margin-right: 7px;
+}
 
-  border-radius: 5px;
-  background-color: #CC7060;
+.footer-brand-logo{
+  width: 20px;
+  height: 20px;
 }
 
 .footer-brand span {
   font-size: 32px;
   font-family: 'Dongle', sans-serif;
-  color: #E04651;
+  color: #E97534;
 
   padding-top: 5px;
 }
@@ -628,14 +639,17 @@ a:visited {
 .download_section h1 {
   font-family: 'Dongle', sans-serif;
   font-size: 96px;
-  margin: 0;
+  margin: 20px 0 0 0;
 
-  line-height: 75px;
+  line-height: 50px;
+
+  color: #E97534;
 }
 
 .download_section h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
+  font-weight: 400;
 
   margin: 0;
 
@@ -684,9 +698,6 @@ a:visited {
   width: 124px;
   height: 124px;
   margin-right: 20px;
-
-  background-color: #E04651;
-  border-radius: 25px;
 }
 
 .app-intro-column {
@@ -761,7 +772,7 @@ a:visited {
   width: 24px;
   height: 24px;
 
-  background-color: #E04651;
+  background-color: #E97534;
   border-radius: 5px;
   margin-right: 10px;
 }
@@ -770,7 +781,29 @@ a:visited {
   align-self: flex-end;
 }
 
+.apk-download-button{
+  width: 260px;
+  height: 40px;
 
+  background-color: #E97534;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+}
+
+.button-text,
+.download-button a:visited,
+.download-button-center a:visited {
+  font-family: 'Open Sans', sans-serif;
+  color: #FAFAFA;
+
+  font-size: 16px;
+  font-weight: 700;
+}
 
 /************/
 
@@ -828,7 +861,7 @@ a:visited {
 }
 
 .version-info-text2 {
-  color: #E04651;
+  color: #E97534;
   margin-left: 20px;
 }
 
@@ -837,7 +870,7 @@ a:visited {
   height: 24px;
   margin-left: auto;
 
-  background-color: #E04651;
+  background-color: #E97534;
   border-radius: 5px;
 }
 
@@ -1121,3 +1154,171 @@ a:visited {
 
 
 /****************ABOUT US PAGE END****************/
+
+
+/****************ABOUT PETCHA PAGE****************/
+
+.ap-banner-section {
+  margin-top: 96px;
+}
+
+.ap-banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+
+  margin: auto;
+}
+
+.ap-banner-texts {
+  color: #1E202C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+
+  margin: auto;
+}
+
+.ap-banner-texts h1 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 96px;
+  margin: 0 0 10px 0;
+
+  line-height: 75px;
+}
+
+.ap-banner-texts p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+  margin: 0;
+
+  line-height: 24px;
+
+  width: 508px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ap-banner-media-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  height: 525px;
+
+  background-color: #ffffff;
+
+
+  margin: 60px auto 100px auto;
+}
+
+/************/
+
+.ap-purpose-section{
+  width: 940px;
+
+  margin: 75px auto 125px auto;
+}
+
+.ap-purpose-section-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ap-purpose-section-texts h3{
+  font-family: 'Dongle', sans-serif;
+  font-size: 46px;
+  margin: 0;
+
+  line-height: 32px;
+}
+
+.ap-purpose-section-texts p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 75px;
+
+  margin: 30px 0 0 0;
+
+  line-height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/************/
+
+.ap-gameplay-section{
+  width: 1160px;
+  height: 520px;
+
+  margin: 50px auto;
+
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ap-gameplay-texts{
+  width: 460px;
+
+  margin-left: 75px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ap-gameplay-texts h3{
+  font-family: 'Dongle', sans-serif;
+  font-size: 46px;
+  margin: 0;
+
+  line-height: 32px;
+}
+
+.ap-gameplay-texts p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+
+  line-height: 24px;
+
+  width: 460px;
+}
+
+.ap-gameplay-video{
+  margin-right: 75px;
+}
+
+.ap-gameplay-separator{
+  margin: 125px auto 0 auto;
+}
+
+
+/****************ABOUT PETCHA PAGE END****************/
