@@ -72,14 +72,14 @@ a:visited {
   font-family: 'Dongle';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .brand span{
   line-height: 18px;
   height: 12px;
 
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .logo {
