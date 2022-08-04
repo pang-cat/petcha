@@ -1144,12 +1144,61 @@ a:visited {
   overflow-x: hidden;
 }
 .au-team-carousel-card{
-  width: 350px;
-  height: 520px;
+  width: 200px;
+  height: 333px;
 
-  background-color: #1E202C;
+  background-color: #E97534;
 
   border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.au-team-pic{
+  width: 200px;
+  height: auto;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.au-team-name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FAFAFA;
+  text-align: center;
+
+  margin:auto;
+
+  cursor: default;
+}
+
+.au-team-card-cover{
+  width: 200px;
+  height: 333px;
+
+  background-image: linear-gradient(to bottom, #e976348b, #E97534);
+
+  border-radius: 16px;
+
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  opacity: 0;
+}
+
+.au-team-card-cover:hover{
+  opacity: 1;
 }
 
 

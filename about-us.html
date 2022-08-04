@@ -36,6 +36,9 @@
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
 
+  <!-- AniCollection.css library -->
+  <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
 
 </head>
 
@@ -116,9 +119,16 @@
 
     <div class="au-team-carousel-gallery">
       <div class="au-team-carousel-cont">
-        <div class="au-team-carousel-card"></div>
-        <div class="au-team-carousel-card"></div>
-        <div class="au-team-carousel-card"></div>
+
+        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Louise Agustin</p></div><img class="au-team-pic" src="images/chloe.png"><p class="au-team-name">Graphic Designer</p></div>
+
+        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Hannah Barredo</p></div><img class="au-team-pic" src="images/hannah.jpg"><p class="au-team-name">Copywriter & <br>Content Manager</p></div>
+
+        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Rae Cayabyab</p></div><img class="au-team-pic" src="images/rae.png"><p class="au-team-name">Web Developer</p></div>
+
+        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Chai Mendoza</p></div><img class="au-team-pic" src="images/chai.jpg"><p class="au-team-name">Game Developer</p></div>
+
+        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Jace Tapong</p></div><img class="au-team-pic" src="images/jace.png"><p class="au-team-name">Graphic Designer</p></div>
       </div>
     </div>
   </div>
@@ -179,6 +189,15 @@
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 
+<!-----------------------SCRIPTSSSSS--------------------------->
+    <!--The core library-->
+    <script src="./src/anijs.js"></script>
+
+    <!--$addClass, $toggleClass or $removeClass-->
+    <script src="./src/helpers/dom/anijs-helper-dom.js"></script>
+
+    <!--Scrollreveal helper-->
+    <script src="./src/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
 
 </body>
 
