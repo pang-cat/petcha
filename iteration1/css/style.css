@@ -525,8 +525,13 @@ a:visited {
 
 /*********FOOTER******/
 
+.info_section{
+  padding: 40px 0 0 0;
+  background-color: var(--white);
+}
+
 .footer_social-container {
-  padding: 0;
+  padding:0;
 }
 
 .social_container {
