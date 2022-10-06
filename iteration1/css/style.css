@@ -827,10 +827,15 @@ a:visited {
 .download-button a:visited,
 .download-button-center a:visited {
   font-family: 'Open Sans', sans-serif;
-  color: #FAFAFA;
+  color: var(--ash-white);
 
   font-size: 16px;
   font-weight: 700;
+}
+
+.apk-download-button:hover, .apk-download-button-center:hover {
+  transform: translateY(-3px);
+  filter: drop-shadow(0 2px 3px #1e202c53);
 }
 
 /************/
