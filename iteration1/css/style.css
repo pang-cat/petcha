@@ -1,4 +1,4 @@
-/* black #1E202C */
+
 :root {
   /*COLOR PALETTE*/
   --white: #FFF;
@@ -105,7 +105,7 @@ a:visited {
 
 .nav-item a:visited, .nav-item a:link{
   font-size: 18px;
-  color: black;
+  color: var(--dark-gray);
 }
 
 .nav-item a:hover {
@@ -586,7 +586,7 @@ a:visited {
 .footer-brand span {
   font-size: 32px;
   font-family: 'Dongle', sans-serif;
-  color: #E97534;
+  color: var(--orange);
 
   padding-top: 5px;
 }
@@ -614,7 +614,7 @@ a:visited {
 }
 
 .footer-text a, .footer-text a:visited{
-  color:#E97534
+  color:var(--orange);
 }
 
 /* end info section */
@@ -638,7 +638,7 @@ a:visited {
 }
 
 .footer_section {
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 20px 15px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -646,13 +646,13 @@ a:visited {
 }
 
 .footer_section p {
-  color: black;
+  color: var(--dark-gray);
   margin: 0 0 0 40px;
   text-align: center;
 }
 
 .footer_section a {
-  color: black;
+  color: var(--dark-gray);
 }
 
 
@@ -678,7 +678,7 @@ a:visited {
 
   line-height: 50px;
 
-  color: #E97534;
+  color: var(--orange);
 }
 
 .download_section h2 {
@@ -721,7 +721,7 @@ a:visited {
   align-items: center;
 
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .app-intro-row {
@@ -759,7 +759,7 @@ a:visited {
   align-items: center;
 
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .apk-info-box {
@@ -818,7 +818,7 @@ a:visited {
   width: 260px;
   height: 40px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
   border-radius: 16px;
 
   display: flex;
@@ -854,7 +854,7 @@ a:visited {
   align-items: center;
 
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .apk-version-box {
@@ -899,7 +899,7 @@ a:visited {
 }
 
 .version-info-text2 {
-  color: #E97534;
+  color: var(--orange);
   margin-left: 20px;
 }
 
@@ -933,7 +933,7 @@ a:visited {
 }
 
 .au-main-section-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -982,7 +982,7 @@ a:visited {
   width:860px;
   height:2px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
 
   margin:75px auto 0 auto;
 }
@@ -990,7 +990,7 @@ a:visited {
 /*********/
 
 .au-study-section-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -1075,14 +1075,14 @@ a:visited {
   width: 1160px;
   height: 650px;
 
-  background-color: #1E202C;
+  background-color: var(--dark-gray);
 
   margin: auto;
 }*/
 
 
 .au-pangcat-section-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -1138,7 +1138,7 @@ a:visited {
 }
 
 .au-team-section-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -1182,7 +1182,7 @@ a:visited {
   width: 200px;
   height: 333px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
 
   border-radius: 16px;
 
@@ -1206,7 +1206,7 @@ a:visited {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #FAFAFA;
+  color: var(--ash-white);
   text-align: center;
 
   margin:auto;
@@ -1258,7 +1258,7 @@ a:visited {
 }
 
 .ap-banner-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -1302,7 +1302,7 @@ a:visited {
   width: 940px;
   height: 525px;
 
-  background-color: #ffffff;
+  background-color: var(--white);
 
 
   margin: 60px auto 100px auto;
@@ -1358,7 +1358,7 @@ a:visited {
 
   margin: 50px auto;
 
-  background-color: #ffffff;
+  background-color: var(--white);
 
   display: flex;
   justify-content: space-between;
@@ -1413,7 +1413,7 @@ a:visited {
 
 .body-priv {
   font-family: 'Open Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white);
 
   margin: 0;
   width: 100%;
@@ -1488,7 +1488,7 @@ a:visited {
   width:1160px;
   height:2px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
 
   margin:30px auto 50px auto;
 }
@@ -1497,7 +1497,7 @@ a:visited {
   width:100%;
   height:2px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
 }
 
 /****************PRIVACY POLICY PAGE END****************/
