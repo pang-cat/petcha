@@ -581,6 +581,22 @@ a:visited {
   margin: 20px 0;
 }
 
+.footer-text span{
+  margin: 0 0 10px 0;
+}
+
+
+.footer-text-bold{
+  font-weight: 700;
+  width: 360px;
+
+  margin: 20px 0 5px 0;
+}
+
+.footer-text a, .footer-text a:visited{
+  color:#E97534
+}
+
 /* end info section */
 
 /* subfooter section*/
