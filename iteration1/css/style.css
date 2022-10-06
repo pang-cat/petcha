@@ -351,13 +351,14 @@ a:visited {
   align-items: flex-start;
   flex-wrap: wrap;
 
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .summary-texts h3 {
   font-family: 'Dongle', sans-serif;
   font-size: 46px;
   font-weight: 700;
+  margin:0;
 
   line-height: 30px;
   color: var(--orange);
@@ -375,6 +376,11 @@ a:visited {
   display: flex;
   flex-wrap: wrap;
   color: var(--dark-gray);
+}
+
+.summary-texts span {
+  font-weight: 700;
+  margin-right: 5px;
 }
 
 .summary-img {
