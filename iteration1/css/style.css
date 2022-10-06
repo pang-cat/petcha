@@ -1,11 +1,20 @@
 /* black #1E202C */
+:root {
+  /*COLOR PALETTE*/
+  --white: #FFF;
+  --ash-white: #FAFAFA;
+  --orange: #E97534;
+  --dark-gray: #1E202C;
+
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #FAFAFA;
+  background-color: var(--ash-white);
 
   margin: 0;
   width: 100%;
@@ -19,7 +28,7 @@ a:visited {
 
 /**********HEADER NAVBAR***********/
 .header {
-  background-color: #ffffff;
+  background-color: var(--white);
   width: 100%;
   height: 96px;
 
@@ -68,7 +77,7 @@ a:visited {
 .brand,
 .brand a:visited,
 .brand a{
-  color: #E97534;
+  color: var(--orange);
   font-family: 'Dongle';
   font-style: normal;
   font-weight: 700;
@@ -89,7 +98,7 @@ a:visited {
 
 .nav-item {
   font-size: 18px;
-  color: #1E202C;
+  color: var(--dark-gray);
 
   margin-right: 50px;
 }
@@ -101,7 +110,7 @@ a:visited {
 
 .nav-item a:hover {
   font-size: 18px;
-  color: #E97534;
+  color: var(--orange);
   text-decoration: underline;
 }
 
@@ -131,7 +140,7 @@ a:visited {
   width: 176px;
   height: 40px;
 
-  background-color: #E97534;
+  background-color: var(--orange);
   border-radius: 16px;
 
   display: flex;
@@ -145,7 +154,7 @@ a:visited {
 .download-button a:visited,
 .download-button-center a:visited {
   font-family: 'Open Sans', sans-serif;
-  color: #FAFAFA;
+  color: var(--ash-white);
 
   font-size: 16px;
   font-weight: 700;
@@ -178,7 +187,7 @@ a:visited {
 }
 
 .landing-texts {
-  color: #1E202C;
+  color: var(--dark-gray);
 
   display: flex;
   flex-direction: column;
@@ -264,7 +273,7 @@ a:visited {
 
 .feature-title-box {
   height: 67px;
-  background-color: #E97534;
+  background-color: var(--orange);
   border-radius: 16px;
 
   display: flex;
@@ -279,7 +288,7 @@ a:visited {
 
   line-height: 40px;
 
-  color: #FAFAFA;
+  color: var(--ash-white);
 }
 
 .features-texts h3 {
@@ -291,7 +300,7 @@ a:visited {
   width: 340px;
 
   line-height: 24px;
-  color: #1E202C;
+  color: var(--dark-gray);
 }
 
 .features-texts p {
@@ -305,7 +314,7 @@ a:visited {
 
   display: flex;
   flex-wrap: wrap;
-  color: #1E202C;
+  color: var(--dark-gray);
 }
 
 .features-img {
@@ -351,7 +360,7 @@ a:visited {
   font-weight: 700;
 
   line-height: 30px;
-  color: #E97534;
+  color: var(--orange);
 }
 
 .summary-texts p {
@@ -365,7 +374,7 @@ a:visited {
 
   display: flex;
   flex-wrap: wrap;
-  color: #1E202C;
+  color: var(--dark-gray);
 }
 
 .summary-img {
@@ -397,8 +406,6 @@ a:visited {
 }
 
 .app-intro-texts {
-  color: #1E202C;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -410,6 +417,7 @@ a:visited {
 }
 
 .app-intro-texts h1 {
+  color: var(--orange);
   font-family: 'Dongle', sans-serif;
   font-size: 96px;
   margin: 0 0 10px 0;
@@ -418,9 +426,10 @@ a:visited {
 }
 
 .app-intro-texts p {
+  color: var(--dark-gray);
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
 
   margin: 0;
@@ -438,8 +447,6 @@ a:visited {
 .app-intro-dl-cont {
   width: 1160px;
   height: 680px;
-
-  background-color: #ffffff;
 
   margin: 60px auto 130px auto;
 
@@ -469,6 +476,8 @@ a:visited {
   align-items: center;
 
   position: absolute;
+
+  filter: drop-shadow(0px 0px 30px rgb(38, 26, 3));
 }
 
 .app-intro-logo{
@@ -483,7 +492,7 @@ a:visited {
 
   line-height: 50px;
 
-  color: #1E202C;
+  color: var(--dark-gray);
 }
 
 .app-intro-brand p {
@@ -491,7 +500,7 @@ a:visited {
   font-size: 16px;
   text-align: center;
 
-  color: #1E202C;
+  color: var(--dark-gray);
 
   margin: 20px 0 0 0;
 
