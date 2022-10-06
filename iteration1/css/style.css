@@ -802,8 +802,6 @@ a:visited {
   width: 24px;
   height: 24px;
 
-  background-color: #E97534;
-  border-radius: 5px;
   margin-right: 10px;
 }
 
@@ -899,9 +897,6 @@ a:visited {
   width: 24px;
   height: 24px;
   margin-left: auto;
-
-  background-color: #E97534;
-  border-radius: 5px;
 }
 
 /****************DOWNLOAD PAGE END****************/
