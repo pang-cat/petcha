@@ -443,7 +443,7 @@
     .app-intro {
         width: 700px;
         height: 360px;
-      }
+    }
 
     .app-intro-box,
     .apk-info-box,
@@ -451,11 +451,11 @@
         width: 600px;
     }
 
-    .app-intro p{
+    .app-intro p {
         width: 480px;
     }
 
-    .apk-info-box{
+    .apk-info-box {
         height: 360px;
     }
 
@@ -468,21 +468,21 @@
 
     .apk-row {
         height: 480px;
-      }
+    }
 
     .apk-info-table {
         width: 360px;
         height: 360px;
-      
+
         padding: 0 40px 0 40px;
         margin: 0;
-      
+
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-      
+
         list-style: none;
-      }
+    }
 
     .apk-version {
         width: 700px;
@@ -756,17 +756,17 @@
     .download_section h1 {
         font-size: 76px;
         margin: 5px 0 0 0;
-      }
+    }
 
-      .download_section h2 {
+    .download_section h2 {
         font-size: 20px;
         line-height: 18px;
-      }
+    }
 
     .app-intro {
         width: 460px;
         height: 340px;
-      }
+    }
 
     .app-intro-box,
     .apk-info-box,
@@ -774,7 +774,7 @@
         width: 360px;
     }
 
-    .app-intro p{
+    .app-intro p {
         width: 360px;
     }
 
@@ -782,7 +782,7 @@
         width: 77px;
         height: 77px;
         margin-right: 20px;
-      }
+    }
 
     .apk-info {
         width: 460px;
@@ -791,7 +791,7 @@
         flex-wrap: wrap;
     }
 
-    .apk-info-box{
+    .apk-info-box {
         height: 480px;
     }
 
@@ -800,24 +800,24 @@
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0;
-      }
+    }
 
     .apk-info-table {
         width: 320px;
         height: 420px;
-      
+
         padding: 0 40px 0 40px;
         margin: 0;
-      
+
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-      }
+    }
 
-      .apk-download-button{
+    .apk-download-button {
         margin-left: 0;
         margin-right: auto;
-      }
+    }
 
     .apk-version {
         width: 460px;
@@ -1135,6 +1135,96 @@
 
     .footer_section a {
         font-size: 13px;
+    }
+
+    /******************DOWNLOAD PAGE******************/
+    .download_section {
+        width: 360px;
+    }
+
+    .download_section h1 {
+        font-size: 76px;
+        margin: 5px 0 0 0;
+    }
+
+    .download_section h2 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .app-intro {
+        width: 360px;
+        height: 340px;
+    }
+
+    .app-intro-box,
+    .apk-info-box,
+    .apk-version-box {
+        width: 280px;
+    }
+
+    .app-intro p {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .app-logo {
+        width: 77px;
+        height: 77px;
+        margin-right: 20px;
+    }
+
+    .apk-info {
+        width: 360px;
+        height: 600px;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+
+    .apk-info-box {
+        height: 480px;
+    }
+
+    .apk-row {
+        height: 460px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+
+    .apk-info-table {
+        width: 240px;
+        height: 420px;
+
+        padding: 0 40px 0 40px;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .apk-info-table li {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .apk-download-button {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .apk-version {
+        width: 360px;
+    }
+
+    .version-number {
+        font-size: 14px;
+    }
+
+    .version-info p {
+        margin-top: 5px;
     }
 
 }
