@@ -9,9 +9,9 @@
 
 @media (max-width: 1480px) {
     /**********HEADER NAVBAR***********/
-  html{
-    overflow-x: hidden;
-    }
+ html{
+        overflow-x: hidden;
+        }     
 
  .header {
     width: 100%;
@@ -665,6 +665,22 @@
     font-size: 14px;
   }
 
+  .footer-text, .footer-text-bold{
+    width: 380px;
+  }
+
+  .info_section .social-box {
+    width: 380px;
+  }
+
+  .info_section{
+    width: 100%;
+  }
+
+  .social_container {
+    width: 380px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -947,6 +963,18 @@
 
   .footer-text, .footer-text-bold{
     font-size: 12.5px;
+    width: 260px;
+  }
+
+  .info_section .social-box {
+    width: 260px;
+  }
+
+  .info_section{
+    width: 100%;
+  }
+
+  .social_container {
     width: 260px;
   }
 
