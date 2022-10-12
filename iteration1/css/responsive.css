@@ -137,6 +137,15 @@
         width: 990px;
     }
 
+    /****************PRIVACY POLICY PAGE****************/
+
+    .priv-main{
+        width: 990px;
+      }
+
+    .line-separator-side{
+        width:990px;
+    }
 }
 
 @media (max-width: 1080px) {
@@ -256,6 +265,20 @@
     .footer,
     .subfooter {
         width: 860px;
+    }
+
+    /****************PRIVACY POLICY PAGE****************/
+
+    .priv-main{
+        width: 860px;
+      }
+
+    .line-separator-side{
+        width:860px;
+    }
+
+    .priv-texts p{
+        width:820px;
     }
 
 }
@@ -486,6 +509,20 @@
 
     .apk-version {
         width: 700px;
+    }
+
+    /****************PRIVACY POLICY PAGE****************/
+
+    .priv-main{
+        width: 640px;
+      }
+
+    .line-separator-side{
+        width:640px;
+    }
+
+    .priv-texts p{
+        width:600px;
     }
 
 }
@@ -821,6 +858,36 @@
 
     .apk-version {
         width: 460px;
+    }
+
+    /****************PRIVACY POLICY PAGE****************/
+
+    .priv-main{
+        width: 400px;
+      }
+
+    .line-separator-side{
+        width:400px;
+    }
+
+    .priv-texts p{
+        width:380px;
+    }
+
+    .priv-title-section h4{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+        text-align: left;
+      
+        line-height: 40px;
+      
+        margin: 75px 0 0 0;
+    }
+
+    .priv-title-section p,
+    .priv-texts p{
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
@@ -1225,6 +1292,48 @@
 
     .version-info p {
         margin-top: 5px;
+    }
+
+    /****************PRIVACY POLICY PAGE****************/
+
+    .priv-main{
+        width: 320px;
+      }
+
+    .line-separator-side{
+        width:320px;
+    }
+
+    .priv-texts{
+        margin: 0 0 145px 0;
+      }
+
+    .priv-texts p{
+        width:300px;
+    }
+
+    .priv-title-section h4{
+        font-size: 24px;
+        line-height: 30px;
+      
+        margin: 45px 0 0 0;
+    }
+
+    .priv-texts h5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+      
+        line-height: 24px;
+      
+        margin: 45px 0 10px 0;
+      }
+
+    .priv-title-section p,
+    .priv-texts p{
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
