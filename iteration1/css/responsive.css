@@ -667,7 +667,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     /**********HEADER NAVBAR***********/
     .header {
         width: 100%;
