@@ -4,7 +4,12 @@
   --white: #FFF;
   --ash-white: #FAFAFA;
   --orange: #E97534;
+  --light-orange: #F0945C;
   --dark-gray: #1E202C;
+  --indigo: #4E4B66;
+  --logo-white: #E6E6E6;
+  --logo-yellow: #EACA5E;
+  --logo-orange: #;
 
 }
 
@@ -1309,6 +1314,11 @@ a:visited {
   margin: 60px auto 100px auto;
 }
 
+.ap-banner-media-trailer{
+  width: 515px;
+  height: 290px;
+}
+
 /************
 
 .ap-purpose-section{
@@ -1353,17 +1363,30 @@ a:visited {
 
 ************/
 
-.ap-gameplay-section{
+.ap-gameplay-section-1,
+.ap-gameplay-section-2,
+.ap-gameplay-section-3{
   width: 1160px;
   height: 520px;
+  border-radius: 16px;
 
   margin: 50px auto;
-
-  background-color: var(--white);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.ap-gameplay-section-1{
+  background-color: var(--logo-white);
+}
+
+.ap-gameplay-section-2{
+  background-color: var(--logo-yellow);
+}
+
+.ap-gameplay-section-3{
+  background-color: var(--light-orange);
 }
 
 .ap-gameplay-texts{
@@ -1382,15 +1405,17 @@ a:visited {
   font-family: 'Dongle', sans-serif;
   font-size: 46px;
   margin: 0;
+  color: var(--dark-gray);
 
   line-height: 32px;
 }
 
 .ap-gameplay-texts p{
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  text-align: justify;
+  /*text-align: justify;*/
+  color: var(--indigo);
 
   line-height: 24px;
 
@@ -1399,6 +1424,8 @@ a:visited {
 
 .ap-gameplay-video{
   margin-right: 75px;
+  width:476px;
+  height: 268px;
 }
 
 .ap-gameplay-separator{
