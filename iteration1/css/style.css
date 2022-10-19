@@ -949,7 +949,7 @@ a:visited {
 
   width: 440px;
 
-  margin: 150px auto auto auto;
+  margin: 190px auto auto auto;
 }
 
 .au-main-section-texts h1 {
@@ -996,6 +996,101 @@ a:visited {
 }
 
 /*********/
+.au-proc-section{
+  width:1394px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 100px auto;
+}
+
+.au-proc-section h2{
+  font-family: 'Dongle', sans-serif;
+  font-size: 64px;
+  line-height: 32px;
+
+  margin: 0 0 10px 0;
+
+  color: var(--brown);
+}
+
+.au-proc{
+  width: 1136px;
+  height: 1600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-proc-row{
+  width: 1136px;
+  height: 500px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-proc-cat{
+  width: 436px;
+  height: 500px;
+
+  margin: 0;
+}
+
+.au-proc-text{
+  width: 700px;
+  height: 475px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-proc-bg{
+  width: 700px;
+  height: 475px;
+
+  position: absolute;
+}
+
+.au-proc-text p{
+  font-family: 'Dongle', sans-serif;
+  font-size: 48px;
+  line-height: 40px;
+  text-align: center;
+
+  color: var(--brown);
+
+  position: absolute;
+}
+
+.au-proc-p1{
+  width: 545px;
+  height: 245px;
+
+  margin: 0;
+}
+
+.au-proc-p2{
+  width: 588px;
+  height: 245px;
+
+  padding-top: 50px;
+}
+
+.au-proc-p3{
+  width: 588px;
+  height: 245px;
+
+  padding-bottom: 70px;
+}
+
 
 .au-study-section-texts {
   color: var(--dark-gray);
@@ -1011,14 +1106,13 @@ a:visited {
 }
 
 .au-study-section-texts h2 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-
+  font-family: 'Dongle', sans-serif;
+  font-size: 56px;
   line-height: 32px;
-
+  
   margin: 0 0 10px 0;
+
+  color: var(--brown);
 }
 
 .au-study-section-texts p {
