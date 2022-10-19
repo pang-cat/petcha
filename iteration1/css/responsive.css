@@ -147,19 +147,12 @@
         width:990px;
     }
 
-    /************/
+    /*****************ABOUT PETCHA PAGE******************/
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
     .ap-gameplay-section-3{
         width: 990px;
         height: 520px;
-        border-radius: 16px;
-
-        margin: 50px auto;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .ap-gameplay-texts{
@@ -305,6 +298,61 @@
     .priv-texts p{
         width:820px;
     }
+
+    /*****************ABOUT PETCHA PAGE******************/
+    .ap-banner-section {
+        margin-top: 96px;
+      }
+
+    .ap-banner-container {    
+        width: 860px;
+      }
+
+      .ap-banner-texts {
+        color: var(--dark-gray);
+        flex-wrap: wrap;
+      
+        width: 860px;
+      }
+
+    .ap-banner-media-bg{
+        width: 860px;
+        height: 480px;
+        margin: 30px auto 100px auto;
+      }
+      
+    .ap-banner-media-bg-img{
+        width: 860px;
+        height: auto;
+        position: absolute;
+      
+        margin: 0;
+      }
+      
+    .ap-banner-media-trailer{
+        width: 462px;
+        height: 260px;
+      
+        z-index: 1;
+      }
+
+    .ap-gameplay-section-1,
+    .ap-gameplay-section-2,
+    .ap-gameplay-section-3{
+        width: 860px;
+        height: 520px;
+    }
+
+    .ap-gameplay-texts{
+        width: 300px;
+        margin-left: 50px;
+      }
+
+      .ap-gameplay-video{
+        margin-right: 50px;
+        width:400px;
+        height: 225px;
+      }
 
 }
 
@@ -549,6 +597,103 @@
     .priv-texts p{
         width:600px;
     }
+
+    /*****************ABOUT PETCHA PAGE******************/
+    .ap-banner-section {
+        margin-top: 75px;
+      }
+
+    .ap-banner-container {    
+        width: 700px;
+      }
+
+      .ap-banner-texts {
+        color: var(--dark-gray);
+        flex-wrap: wrap;
+      
+        width: 700px;
+      }
+
+      .ap-banner-texts p {
+        font-size: 14px;
+      
+        line-height: 20px;
+      
+        width: 660px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+    .ap-banner-media-bg{
+        width: 700px;
+        height: 500px;
+        margin: 0 auto 75px auto;
+      }
+      
+    .ap-banner-media-bg-img{
+        width: 700px;
+        height: 480px;
+        position: absolute;
+
+        object-fit: cover;
+      
+        margin: 0;
+
+        
+        -webkit-mask: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 7%,
+        rgba(255, 255, 255, 1) 93%,
+        rgba(255, 255, 255, 0) 100%
+        );
+      }
+     
+    /*
+    .ap-banner-media-trailer{
+        width: 356px;
+        height: 200px;
+      
+        z-index: 1;
+      }*/
+
+    .ap-gameplay-section-1,
+    .ap-gameplay-section-2,
+    .ap-gameplay-section-3{
+        width: 700px;
+        height: 550px;
+
+        margin: 50px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*
+    .ap-gameplay-section-1 :first-child,
+    .ap-gameplay-section-2 :first-child,
+    .ap-gameplay-section-3 :first-child{
+        order: calc(2);
+    }*/
+
+    .ap-gameplay-texts{
+        width: 600px;
+        margin: 50px auto 0 auto;
+
+        text-align: center;
+        align-items: center;
+      }
+
+      .ap-gameplay-video{
+        margin: 30px auto 50px auto;
+        width:400px;
+        height: 225px;
+      }
 
 }
 
