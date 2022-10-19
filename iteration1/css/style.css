@@ -978,7 +978,8 @@ a:visited {
   flex-wrap: wrap;
 }
 
-.au-main-section-img {
+.au-main-section-img-1,
+.au-main-section-img-2{
   width: 1160px;
 
   position: absolute;

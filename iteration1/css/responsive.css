@@ -1,9 +1,15 @@
 :root {
     /*COLOR PALETTE*/
-    --white: #FFF;
-    --ash-white: #FAFAFA;
-    --orange: #E97534;
-    --dark-gray: #1E202C;
+  --white: #FFF;
+  --ash-white: #FAFAFA;
+  --orange: #E97534;
+  --light-orange: #F0945C;
+  --dark-gray: #1E202C;
+  --indigo: #4E4B66;
+  --logo-white: #E6E6E6;
+  --logo-yellow: #EACA5E;
+  --brown: #5F4D42;
+  --cream: #F3E8D1;
 
 }
 
