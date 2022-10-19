@@ -109,27 +109,29 @@
         </div>
       </div>
     </div>
-
-    <!--
-    <p>Shatz (2018) describes procrastination as "a state of mind where someone acts against their better judgment, due to a lack of sufficient self-control." Moreover, procrastination is considered to be unintentional and irrational. Procrastinators are not lazy. They only need to understand their reasoning behind procrastination in order to manage it better (Tala, 2016).</p>
-    <p>According to Ph.D. Psychologist Linda Sapadin, procrastination is an unresolved approach to avoid conflict and so you are torn between two impulses, which is whether to do it or not to do it. So that uncertainty makes it hard to choose a clear commitment to action.</p>
-    <p>Procrastination is natural, especially if you have an important task to do; you find it difficult but doing so makes you more creative because you're subconsciously collecting ideas and processing how to complete the task. It helps give light on which task is more important because purpose and passion will help you overcome procrastination hurdles; it makes you realize that you are working on the wrong thing. Procrastination, then, becomes your savior to making better decisions. You are ready to decide as you've done your project by the time the deadline arrives.</p>
-     -->
   </div>
 
-  <div class="au-study-section-texts">
+  <div class="au-research-section">
       <h2>Our Research</h2>
-      <p>Introduction. The implementation of community quarantine due to the COVID-19 pandemic has led schools to transition from traditional learning to remote learning, creating a shift in learning behaviors of the students. Because of this, the researchers have conducted a study titled "Procrast-Innate: Behavioral Patterns and Procrastination Tendencies of Arts and Design Students During Online Classes" that aims to understand and describe behavioral patterns of Arts and Design Students that may have influenced their procrastination habits during the pandemic, including the underlying factors that shaped these.
-      </p>
-      <p>Methodology. A two-week data gathering via survey questionnaire and online interview has been done by the researchers from various art schools in Metro Manila to assess each student's point of view about procrastination and how or why they have led to procrastination. To further analyze the data gathered, the researchers will be utilizing cross analysis.</p>
-      <p>Results. Given the online set-up, participants often put off tasks and delay them further when deadlines seem incomprehensible and unrealistic, which proves Lesser's 2018 research and contradicts Naved et al. (2017) research. Most participants have also expressed that lack of social interaction in the pandemic has affected their mental well-being, causing their ability to do tasks properly. However, most participants have also overcome it by coming up with strategies that aid them in completing tasks by rewarding themselves, planning ahead and taking breaks &#8212; supporting the findings of Kauffman & Gregoire (2016).</p>
-      <p>Conclusion. A summarized statistical data and themes in the key findings of the study will express the specific factors that contribute to the reasons why Arts and Design College Students tend to procrastinate.</p>
-      
-      <div class="au-study-section-tags">
-        <h4><span class="p-bold">Keywords:</span>Procrastination, Arts and Design, Pandemic, Online Learning, Procrastinator, Creativity</h4>
-        <h4><span class="p-bold">Paper Type:</span> </h4>
-      </div>
+      <div id="au-research-texts">
+        <p>Introduction. The implementation of community quarantine due to the COVID-19 pandemic has led schools to transition from traditional learning to remote learning, creating a shift in learning behaviors of the students. Because of this, the researchers have conducted a study titled <span>"Procrast-Innate: Behavioral Patterns and Procrastination Tendencies of Arts and Design Students During Online Classes"</span> that aims to understand and describe behavioral patterns of Arts and Design Students that may have influenced their procrastination habits during the pandemic, including the underlying factors that shaped these.
+        </p>
+        <p>Methodology. A two-week data gathering via survey questionnaire and online interview has been done by the researchers from various art schools in Metro Manila to assess each student's point of view about procrastination and how or why they have led to procrastination. To further analyze the data gathered, the researchers will be utilizing cross analysis.</p>
+        <p>Results. Given the online set-up, participants often put off tasks and delay them further when deadlines seem incomprehensible and unrealistic, which proves Lesser's 2018 research and contradicts Naved et al. (2017) research. Most participants have also expressed that lack of social interaction in the pandemic has affected their mental well-being, causing their ability to do tasks properly. However, most participants have also overcome it by coming up with strategies that aid them in completing tasks by rewarding themselves, planning ahead and taking breaks &#8212; supporting the findings of Kauffman & Gregoire (2016).</p>
+        <p>Conclusion. A summarized statistical data and themes in the key findings of the study will express the specific factors that contribute to the reasons why Arts and Design College Students tend to procrastinate.</p>
+        
+        <div class="au-research-section-tags">
+          <h4><span class="p-bold">Keywords:</span>Procrastination, Arts and Design, Pandemic, Online Learning, Procrastinator, Creativity</h4>
+          <h4><span class="p-bold">Paper Type:</span> </h4>
+        </div>
+    </div>
+
+    <a id="research-read-more" href="#au-research-texts" onClick="readMoreLess()">Read more</a>
+				<p id="moreLess" hidden="true">false</p>
+
   </div>
+
+  <img class="au-research-img" src="images/img-abt-research.png">
 
   <!-- study contents end -->
 
@@ -225,6 +227,24 @@
 
     <!--Scrollreveal helper-->
     <script src="./src/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
+
+
+    <script>
+      function readMoreLess() {
+          var more = document.getElementById('moreLess').innerHTML;
+          if (more == "false") {
+              document.getElementById('au-research-texts').style.height = "auto";
+              document.getElementById('au-research-texts').style.overflow = "visible";
+              document.getElementById('research-read-more').innerHTML = "Read less";
+              document.getElementById('moreLess').innerHTML = "true";
+          } else {
+              document.getElementById('au-research-texts').style.height = "215px";
+              document.getElementById('au-research-texts').style.overflow = "hidden ";
+              document.getElementById('research-read-more').innerHTML = "Read more";
+              document.getElementById('moreLess').innerHTML = "false";
+          }
+      }
+  </script>
 
 </body>
 
