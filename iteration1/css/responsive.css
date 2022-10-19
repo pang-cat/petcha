@@ -146,6 +146,31 @@
     .line-separator-side{
         width:990px;
     }
+
+    /************/
+    .ap-gameplay-section-1,
+    .ap-gameplay-section-2,
+    .ap-gameplay-section-3{
+        width: 990px;
+        height: 520px;
+        border-radius: 16px;
+
+        margin: 50px auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ap-gameplay-texts{
+        width: 300px;
+      }
+
+      .ap-gameplay-video{
+        margin-right: 75px;
+        width:476px;
+        height: 268px;
+      }
 }
 
 @media (max-width: 1080px) {
