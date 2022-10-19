@@ -1308,15 +1308,27 @@ a:visited {
   width: 940px;
   height: 525px;
 
-  background-color: var(--white);
+
+  margin: 30px auto 100px auto;
+}
+
+.ap-banner-media-bg-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  height: 525px;
+  position: absolute;
 
 
-  margin: 60px auto 100px auto;
+  margin: 0;
 }
 
 .ap-banner-media-trailer{
   width: 515px;
   height: 290px;
+
+  z-index: 1;
 }
 
 /************
