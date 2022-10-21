@@ -230,6 +230,7 @@
     <script>
       function readMoreLess() {
           var more = document.getElementById('moreLess').innerHTML;
+
           if (more == "false") {
               document.getElementById('au-research-texts').style.height = "auto";
               document.getElementById('au-research-texts').style.overflow = "visible";
@@ -237,7 +238,7 @@
               document.getElementById('moreLess').innerHTML = "true";
           } else {
               document.getElementById('au-research-texts').style.height = "215px";
-              document.getElementById('au-research-texts').style.overflow = "hidden ";
+              document.getElementById('au-research-texts').style.overflow = "hidden";
               document.getElementById('research-read-more').innerHTML = "Read more";
               document.getElementById('moreLess').innerHTML = "false";
           }

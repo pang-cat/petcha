@@ -1,15 +1,15 @@
 :root {
     /*COLOR PALETTE*/
-  --white: #FFF;
-  --ash-white: #FAFAFA;
-  --orange: #E97534;
-  --light-orange: #F0945C;
-  --dark-gray: #1E202C;
-  --indigo: #4E4B66;
-  --logo-white: #E6E6E6;
-  --logo-yellow: #EACA5E;
-  --brown: #5F4D42;
-  --cream: #F3E8D1;
+    --white: #FFF;
+    --ash-white: #FAFAFA;
+    --orange: #E97534;
+    --light-orange: #F0945C;
+    --dark-gray: #1E202C;
+    --indigo: #4E4B66;
+    --logo-white: #E6E6E6;
+    --logo-yellow: #EACA5E;
+    --brown: #5F4D42;
+    --cream: #F3E8D1;
 
 }
 
@@ -38,19 +38,19 @@
     }
 
     /**********ABOUR US PAGE***********/
-    .au-research-img{
+    .au-research-img {
         width: 1200px;
         height: auto;
     }
-    
-    .au-proc-section{
-        width:1200px;
-      
+
+    .au-proc-section {
+        width: 1200px;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
+
         margin: 100px auto;
     }
 
@@ -162,104 +162,105 @@
 
     /****************PRIVACY POLICY PAGE****************/
 
-    .priv-main{
+    .priv-main {
         width: 990px;
-      }
+    }
 
-    .line-separator-side{
-        width:990px;
+    .line-separator-side {
+        width: 990px;
     }
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
-    .ap-gameplay-section-3{
+    .ap-gameplay-section-3 {
         width: 990px;
         height: 520px;
     }
 
-    .ap-gameplay-texts{
+    .ap-gameplay-texts {
         width: 300px;
-      }
+    }
 
-      .ap-gameplay-video{
+    .ap-gameplay-video {
         margin-right: 75px;
-        width:476px;
+        width: 476px;
         height: 268px;
-      }
+    }
 
-    /**********ABOUR US PAGE***********/
+    /**********ABOUT US PAGE***********/
     .au-main-section-container {
         width: 990px;
         height: 650px;
-      
+
         margin: 50px auto auto auto;
-      }
+    }
 
     .au-main-section-img-1,
-    .au-main-section-img-2{
+    .au-main-section-img-2 {
         width: 990px;
     }
 
-    .au-main-section-img-1{
+    .au-main-section-img-1 {
         height: 647px;
         object-fit: cover;
     }
-    
-    .au-proc-section{
-        width:990px;      
+
+    .au-proc-section {
+        width: 990px;
         margin: 100px auto;
     }
 
-    .au-proc{
+    .au-proc {
         width: 990px;
         height: 1394px;
     }
 
-    .au-proc-row{
+    .au-proc-row {
         width: 990px;
         height: 436px;
     }
 
-    .au-proc-cat{
+    .au-proc-cat {
         width: 380px;
         height: 436px;
     }
 
-    .au-proc-text, .au-proc-bg{
+    .au-proc-text,
+    .au-proc-bg {
         width: 610px;
         height: 414px;
     }
 
-    .au-proc-text p{
+    .au-proc-text p {
         font-family: 'Dongle', sans-serif;
         font-size: 40px;
         line-height: 34px;
         text-align: center;
-      }
+    }
 
-    .au-proc-p1{
+    .au-proc-p1 {
         width: 435px;
         height: 205px;
-      
+
         margin: 0;
     }
-      
-      .au-proc-p2{
+
+    .au-proc-p2 {
         width: 478px;
         height: 220px;
-      
+
         padding-top: 50px;
     }
-      
-    .au-proc-p3{
+
+    .au-proc-p3 {
         width: 488px;
         height: 220px;
-      
+
         padding-bottom: 50px;
     }
 
-    .au-research-img{
+    .au-research-img {
         width: 990px;
         height: auto;
     }
@@ -267,72 +268,72 @@
     .au-research-section {
         width: 990px;
         margin: 0 auto 100px auto;
-      }
+    }
 
-    #au-research-texts{
+    #au-research-texts {
         width: 860px;
         height: 215px;
-      
+
         overflow: hidden;
     }
 
-    .au-pangcat-section{     
+    .au-pangcat-section {
         width: 990px;
         margin: 75px auto 100px auto;
-      }
+    }
 
     .au-pangcat-section-texts {
         width: 860px;
         margin: 150px auto 0 auto;
-      }
+    }
 
-    .au-team-section{
+    .au-team-section {
         width: 990px;
         margin: 50px auto 100px auto;
-      }
-    
-    .au-team-carousel-gallery{
+    }
+
+    .au-team-carousel-gallery {
         width: 990px;
         height: auto;
         margin-top: 50px;
-      
+
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
-    .au-team-carousel-cont{
+    .au-team-carousel-cont {
         width: 700px;
         margin: auto;
-      
+
         display: flex;
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
         overflow-x: visible;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
         margin: 0 25px 25px 0;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
         margin: 0 25px 25px 25px;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
         margin: 0 0 25px 25px;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
         margin: 25px 25px 0 auto;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
         margin: 25px auto 0 25px;
-      }
-    
-    
+    }
+
+
 }
 
 @media (max-width: 1080px) {
@@ -456,90 +457,90 @@
 
     /****************PRIVACY POLICY PAGE****************/
 
-    .priv-main{
+    .priv-main {
         width: 860px;
-      }
-
-    .line-separator-side{
-        width:860px;
     }
 
-    .priv-texts p{
-        width:820px;
+    .line-separator-side {
+        width: 860px;
+    }
+
+    .priv-texts p {
+        width: 820px;
     }
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
         margin-top: 96px;
-      }
+    }
 
-    .ap-banner-container {    
+    .ap-banner-container {
         width: 860px;
-      }
+    }
 
-      .ap-banner-texts {
+    .ap-banner-texts {
         color: var(--dark-gray);
         flex-wrap: wrap;
-      
-        width: 860px;
-      }
 
-    .ap-banner-media-bg{
+        width: 860px;
+    }
+
+    .ap-banner-media-bg {
         width: 860px;
         height: 480px;
         margin: 30px auto 100px auto;
-      }
-      
-    .ap-banner-media-bg-img{
+    }
+
+    .ap-banner-media-bg-img {
         width: 860px;
         height: auto;
         position: absolute;
-      
+
         margin: 0;
-      }
-      
-    .ap-banner-media-trailer{
+    }
+
+    .ap-banner-media-trailer {
         width: 462px;
         height: 260px;
-      
+
         z-index: 1;
-      }
+    }
 
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
-    .ap-gameplay-section-3{
+    .ap-gameplay-section-3 {
         width: 860px;
         height: 520px;
     }
 
-    .ap-gameplay-texts{
+    .ap-gameplay-texts {
         width: 300px;
         margin-left: 50px;
-      }
+    }
 
-      .ap-gameplay-video{
+    .ap-gameplay-video {
         margin-right: 50px;
-        width:400px;
+        width: 400px;
         height: 225px;
-      }
+    }
 
 
-    /**********ABOUR US PAGE***********/
+    /**********ABOUT US PAGE***********/
     .au-main-section-container {
         width: 860px;
         height: 482px;
 
         justify-content: flex-start;
-      
+
         margin: 50px auto auto auto;
-      }
+    }
 
     .au-main-section-img-1,
-    .au-main-section-img-2{
+    .au-main-section-img-2 {
         width: 860px;
     }
 
-    .au-main-section-img-1{
+    .au-main-section-img-1 {
         height: 647px;
         object-fit: cover;
         overflow: hidden;
@@ -548,73 +549,74 @@
     .au-main-section-texts {
         width: 360px;
         margin: 160px auto auto auto;
-      }
+    }
 
-      .au-main-section-texts h1 {
+    .au-main-section-texts h1 {
         font-family: 'Dongle', sans-serif;
         font-size: 96px;
         margin: 0 0 0 0;
-      
+
         line-height: 60px;
-      }
+    }
 
-      .au-main-section-texts p br{
+    .au-main-section-texts p br {
         display: none;
-      }
-      
+    }
 
-    .au-proc-section{
-        width:860px;      
+
+    .au-proc-section {
+        width: 860px;
         margin: 100px auto;
     }
 
-    .au-proc{
+    .au-proc {
         width: 860px;
         height: 1211px;
     }
 
-    .au-proc-row{
+    .au-proc-row {
         width: 860px;
         height: 379px;
     }
 
-    .au-proc-cat{
+    .au-proc-cat {
         width: 330px;
         height: 379px;
     }
 
-    .au-proc-text, .au-proc-bg{
+    .au-proc-text,
+    .au-proc-bg {
         width: 530px;
         height: 360px;
     }
 
-    .au-proc-text p{
+    .au-proc-text p {
         font-family: 'Dongle', sans-serif;
         font-size: 36px;
         line-height: 30px;
         text-align: center;
-      }
+    }
 
-    .au-proc-p1{
+    .au-proc-p1 {
         width: 378px;
         height: 175px;
     }
-      
-      .au-proc-p2{
+
+    .au-proc-p2 {
         width: 415px;
         height: 200px;
-      
+
         padding-top: 50px;
     }
-      
-    .au-proc-p3{
+
+    .au-proc-p3 {
         width: 438px;
         height: 185px;
-      
+
         padding-bottom: 50px;
     }
 
-    .au-research-img{
+    .au-research-img {
         width: 860px;
         height: auto;
     }
@@ -622,24 +624,28 @@
     .au-research-section {
         width: 860px;
         margin: 0 auto 100px auto;
-      }
+    }
 
-    #au-research-texts{
+    #au-research-texts {
         width: 760px;
         height: 230px;
-      
+
         overflow: hidden;
     }
 
-    .au-pangcat-section{     
+    .au-research-section h4{
+        width: 760px;
+    }
+
+    .au-pangcat-section {
         width: 860px;
         margin: 75px auto 100px auto;
-      }
+    }
 
     .au-pangcat-section-texts {
         width: 760px;
         margin: 150px auto 0 auto;
-      }
+    }
 
     .au-pangcat-section-texts h2 {
         font-family: 'Dongle', sans-serif;
@@ -647,57 +653,57 @@
         font-weight: 700;
         text-align: center;
         width: 500px;
-        
+
         margin: 0 0 10px 0;
-      
+
         line-height: 40px;
     }
 
-    .au-team-section{
+    .au-team-section {
         width: 860px;
         margin: 50px auto 100px auto;
-      }
-    
-    .au-team-carousel-gallery{
+    }
+
+    .au-team-carousel-gallery {
         width: 860px;
         height: auto;
         margin-top: 50px;
-      
+
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
-    .au-team-carousel-cont{
+    .au-team-carousel-cont {
         width: 700px;
         margin: auto;
-      
+
         display: flex;
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
         overflow-x: visible;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
         margin: 0 25px 25px 0;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
         margin: 0 25px 25px 25px;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
         margin: 0 0 25px 25px;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
         margin: 25px 25px 0 auto;
-      }
+    }
 
-      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5){
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
         margin: 25px auto 0 25px;
-      }
+    }
 
 }
 
@@ -931,72 +937,70 @@
 
     /****************PRIVACY POLICY PAGE****************/
 
-    .priv-main{
+    .priv-main {
         width: 640px;
-      }
-
-    .line-separator-side{
-        width:640px;
     }
 
-    .priv-texts p{
-        width:600px;
+    .line-separator-side {
+        width: 640px;
+    }
+
+    .priv-texts p {
+        width: 600px;
     }
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
         margin-top: 75px;
-      }
+    }
 
-    .ap-banner-container {    
+    .ap-banner-container {
         width: 700px;
-      }
+    }
 
-      .ap-banner-texts {
+    .ap-banner-texts {
         color: var(--dark-gray);
         flex-wrap: wrap;
-      
-        width: 700px;
-      }
 
-      .ap-banner-texts p {
+        width: 700px;
+    }
+
+    .ap-banner-texts p {
         font-size: 14px;
-      
+
         line-height: 20px;
-      
+
         width: 660px;
-      
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-      }
+    }
 
-    .ap-banner-media-bg{
+    .ap-banner-media-bg {
         width: 700px;
         height: 500px;
         margin: 0 auto 75px auto;
-      }
-      
-    .ap-banner-media-bg-img{
+    }
+
+    .ap-banner-media-bg-img {
         width: 700px;
         height: 480px;
         position: absolute;
 
         object-fit: cover;
-      
+
         margin: 0;
 
-        
-        -webkit-mask: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 1) 7%,
-        rgba(255, 255, 255, 1) 93%,
-        rgba(255, 255, 255, 0) 100%
-        );
-      }
-     
+
+        -webkit-mask: linear-gradient(to left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 7%,
+                rgba(255, 255, 255, 1) 93%,
+                rgba(255, 255, 255, 0) 100%);
+    }
+
     /*
     .ap-banner-media-trailer{
         width: 356px;
@@ -1007,7 +1011,7 @@
 
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
-    .ap-gameplay-section-3{
+    .ap-gameplay-section-3 {
         width: 700px;
         height: 550px;
 
@@ -1026,19 +1030,212 @@
         order: calc(2);
     }*/
 
-    .ap-gameplay-texts{
+    .ap-gameplay-texts {
         width: 600px;
         margin: 50px auto 0 auto;
 
         text-align: center;
         align-items: center;
-      }
+    }
 
-      .ap-gameplay-video{
+    .ap-gameplay-video {
         margin: 30px auto 50px auto;
-        width:400px;
+        width: 400px;
         height: 225px;
-      }
+    }
+
+
+    /**********ABOUT US PAGE***********/
+    .au-main-section {
+        width: 640px;
+    }
+
+    .au-main-section-container {
+        width: 640px;
+        height: 540px;
+
+        margin: 50px auto auto auto;
+    }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2 {
+        width: 640px;
+    }
+
+    .au-main-section-img-1 {
+        height: 647px;
+        object-fit: cover;
+    }
+
+    .au-main-section-img-2 {
+        margin-top: 175px;
+    }
+
+    .au-main-section-texts {
+        width: 320px;
+        margin: 180px auto auto auto;
+    }
+
+    .au-main-section-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 96px;
+        margin: 0 0 0 0;
+
+        line-height: 60px;
+    }
+
+    .au-proc-section {
+        width: 640px;
+        margin: 100px auto;
+    }
+
+    .au-proc {
+        width: 640px;
+        height: auto;
+    }
+
+    .au-proc-row {
+        width: 640px;
+        height: 700px;
+
+        flex-direction: column;
+
+        margin-top: 50px;
+    }
+
+    .au-proc-cat {
+        width: 300px;
+        height: 500px;
+
+        object-fit: cover;
+    }
+
+    .au-proc-row .au-proc-cat {
+        order: 1;
+    }
+
+    .au-proc-row .au-proc-text {
+        order: 2;
+    }
+
+    .au-proc-text,
+    .au-proc-bg {
+        width: 610px;
+        height: 414px;
+    }
+
+    .au-proc-text p {
+        font-family: 'Dongle', sans-serif;
+        font-size: 40px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .au-proc-p1 {
+        width: 435px;
+        height: 205px;
+
+        margin: 0;
+    }
+
+    .au-proc-p2 {
+        width: 478px;
+        height: 220px;
+
+        padding-top: 50px;
+    }
+
+    .au-proc-p3 {
+        width: 488px;
+        height: 220px;
+
+        padding-bottom: 50px;
+    }
+
+    .au-research-img {
+        width: 680px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 640px;
+        margin: 200px auto 100px auto;
+    }
+
+    #au-research-texts {
+        width: 560px;
+        height: 290px;
+
+        overflow: hidden;
+    }
+
+    .au-research-section h4{
+        width: 560px;
+        flex-wrap: nowrap;
+
+        overflow: inherit;
+    }
+
+    .au-pangcat-section {
+        width: 640px;
+        margin: 75px auto 100px auto;
+    }
+
+    .au-pangcat-section-texts {
+        width: 560px;
+        margin: 150px auto 0 auto;
+    }
+
+    .au-team-section {
+        width: 640px;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 640px;
+        height: auto;
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 640px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+
+    .line-separator {
+        width: 640px;
+    }
 
 }
 
@@ -1377,30 +1574,30 @@
 
     /****************PRIVACY POLICY PAGE****************/
 
-    .priv-main{
+    .priv-main {
         width: 400px;
-      }
-
-    .line-separator-side{
-        width:400px;
     }
 
-    .priv-texts p{
-        width:380px;
+    .line-separator-side {
+        width: 400px;
     }
 
-    .priv-title-section h4{
+    .priv-texts p {
+        width: 380px;
+    }
+
+    .priv-title-section h4 {
         font-family: 'Open Sans', sans-serif;
         font-size: 28px;
         text-align: left;
-      
+
         line-height: 40px;
-      
+
         margin: 75px 0 0 0;
     }
 
     .priv-title-section p,
-    .priv-texts p{
+    .priv-texts p {
         font-size: 14px;
         line-height: 20px;
     }
@@ -1408,82 +1605,80 @@
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
         margin-top: 50px;
-      }
+    }
 
-    .ap-banner-container {    
+    .ap-banner-container {
         width: 400px;
-      }
+    }
 
     .ap-banner-texts {
         color: var(--dark-gray);
         flex-wrap: wrap;
-      
+
         width: 400px;
-      }
+    }
 
     .ap-banner-texts h1 {
         font-family: 'Dongle', sans-serif;
         font-size: 56px;
         margin: 0 0 10px 0;
-      
+
         line-height: 50px;
-      }
+    }
 
     .ap-banner-texts p {
         font-size: 14px;
-      
+
         line-height: 20px;
-      
+
         width: 360px;
-      
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-      }
+    }
 
-      .ap-banner-texts p br{
+    .ap-banner-texts p br {
         display: none;
-      }
+    }
 
-    .ap-banner-media-bg{
+    .ap-banner-media-bg {
         width: 400px;
         height: 480px;
         margin: 0 auto 75px auto;
-      }
-      
-    .ap-banner-media-bg-img{
+    }
+
+    .ap-banner-media-bg-img {
         width: 400px;
         height: 480px;
         position: absolute;
 
         object-fit: cover;
         object-position: 57% 50%;
-      
+
         margin: 0;
 
-        
-        -webkit-mask: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 1) 10%,
-        rgba(255, 255, 255, 1) 100%,
-        rgba(255, 255, 255, 0) 100%
-        );
-      }
-     
-    .ap-banner-media-trailer{
+
+        -webkit-mask: linear-gradient(to left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 10%,
+                rgba(255, 255, 255, 1) 100%,
+                rgba(255, 255, 255, 0) 100%);
+    }
+
+    .ap-banner-media-trailer {
         width: 356px;
         height: 200px;
 
         margin-top: 40px;
-      
+
         z-index: 1;
-      }
+    }
 
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
-    .ap-gameplay-section-3{
+    .ap-gameplay-section-3 {
         width: 400px;
         height: 550px;
 
@@ -1495,24 +1690,260 @@
         align-items: center;
     }
 
-    .ap-gameplay-texts{
+    .ap-gameplay-texts {
         width: 320px;
         margin: 50px auto 0 auto;
 
         text-align: center;
         align-items: center;
-      }
+    }
 
-      .ap-gameplay-texts p{
+    .ap-gameplay-texts p {
         font-size: 14px;
         line-height: 20px;
-      }
+    }
 
-      .ap-gameplay-video{
+    .ap-gameplay-video {
         margin: 30px auto 50px auto;
         width: 320px;
         height: 180px;
+    }
+
+
+    /**********ABOUT US PAGE***********/
+    .au-main-section {
+        width: 400px;
+    }
+
+    .au-main-section-container {
+        width: 400px;
+        height: 540px;
+
+        margin: 50px auto auto auto;
+    }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2 {
+        width: 400px;
+    }
+
+    .au-main-section-img-1 {
+        height: 647px;
+        object-fit: cover;
+    }
+
+    .au-main-section-img-2 {
+        margin-top: 275px;
+    }
+
+    .au-main-section-texts {
+        width: 300px;
+        margin: 170px auto auto auto;
+    }
+
+    .au-main-section-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 56px;
+        margin: 0 0 0 0;
+
+        line-height: 60px;
+    }
+
+    .au-main-section-texts p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .au-proc-section {
+        width: 400px;
+        margin: 140px auto;
+    }
+
+    .au-proc {
+        width: 400px;
+        height: auto;
+    }
+
+    .au-proc-section h2{
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+      
+        margin: 0 0 10px 0;
       }
+
+    .au-proc-row {
+        width: 400px;
+        height: 700px;
+
+        flex-direction: column;
+
+        margin-top: 50px;
+    }
+
+    .au-proc-cat {
+        width: 300px;
+        height: 310px;
+
+        object-fit: cover;
+    }
+
+    .au-proc-row .au-proc-cat {
+        order: 1;
+    }
+
+    .au-proc-row .au-proc-text {
+        order: 2;
+    }
+
+    .au-proc-text,
+    .au-proc-bg {
+        width: 400px;
+        height: 272px;
+    }
+
+    .au-proc-text p {
+        font-family: 'Dongle', sans-serif;
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .au-proc-p1 {
+        width: 300px;
+        height: 140px;
+    }
+
+    .au-proc-p2 {
+        width: 340px;
+        height: 150px;
+
+        padding-top: 35px;
+    }
+
+    .au-proc-p3 {
+        width: 343px;
+        height: 150px;
+
+        padding-bottom: 35px;
+    }
+
+    .au-research-img {
+        width: 400px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 400px;
+        margin: 200px auto 100px auto;
+    }
+
+    #au-research-texts {
+        width: 340px;
+        height: 350px;
+
+        overflow: hidden;
+    }
+
+    .au-research-section h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+        color: var(--brown);
+        
+        margin: 50px 0 10px 0;
+      }
+
+    .au-research-section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+        line-height: 24px;
+      
+        margin: 15px 0 45px 0;
+      }
+
+    .au-research-section h4{
+        width: 340px;
+        flex-wrap: nowrap;
+
+        overflow: inherit;
+    }
+
+    .au-pangcat-section {
+        width: 400px;
+        margin: 75px auto 100px auto;
+    }
+
+    .au-pangcat-section-texts {
+        width: 340px;
+        margin: 100px auto 0 auto;
+    }
+
+    .au-pangcat-section-texts h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        width:340px;
+        
+        margin: 0;
+      
+        line-height: 36px;
+      }
+
+      .au-pangcat-section-texts p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+      
+        margin: 30px 0 0 0;
+      
+        line-height: 24px;
+      }
+      
+
+    .au-team-section {
+        width: 400px;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 340px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 340px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+      }
+
+
+    .line-separator {
+        width: 360px;
+    }
 
 }
 
@@ -1601,13 +2032,11 @@
         margin: 60px auto 50px auto;
         object-fit: cover;
 
-        -webkit-mask: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 1) 10%,
-        rgba(255, 255, 255, 1) 90%,
-        rgba(255, 255, 255, 0) 100%
-        );
+        -webkit-mask: linear-gradient(to left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 10%,
+                rgba(255, 255, 255, 1) 90%,
+                rgba(255, 255, 255, 0) 100%);
 
         border-radius: 16px;
     }
@@ -1928,42 +2357,42 @@
 
     /****************PRIVACY POLICY PAGE****************/
 
-    .priv-main{
+    .priv-main {
         width: 320px;
-      }
-
-    .line-separator-side{
-        width:320px;
     }
 
-    .priv-texts{
+    .line-separator-side {
+        width: 320px;
+    }
+
+    .priv-texts {
         margin: 0 0 145px 0;
-      }
-
-    .priv-texts p{
-        width:300px;
     }
 
-    .priv-title-section h4{
+    .priv-texts p {
+        width: 300px;
+    }
+
+    .priv-title-section h4 {
         font-size: 24px;
         line-height: 30px;
-      
+
         margin: 45px 0 0 0;
     }
 
-    .priv-texts h5{
+    .priv-texts h5 {
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-weight: 700;
         text-align: left;
-      
+
         line-height: 24px;
-      
+
         margin: 45px 0 10px 0;
-      }
+    }
 
     .priv-title-section p,
-    .priv-texts p{
+    .priv-texts p {
         font-size: 14px;
         line-height: 20px;
     }
@@ -1971,82 +2400,80 @@
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
         margin-top: 50px;
-      }
+    }
 
-    .ap-banner-container {    
+    .ap-banner-container {
         width: 400px;
-      }
+    }
 
     .ap-banner-texts {
         color: var(--dark-gray);
         flex-wrap: wrap;
-      
+
         width: 400px;
-      }
+    }
 
     .ap-banner-texts h1 {
         font-family: 'Dongle', sans-serif;
         font-size: 56px;
         margin: 0 0 10px 0;
-      
+
         line-height: 50px;
-      }
+    }
 
     .ap-banner-texts p {
         font-size: 14px;
-      
+
         line-height: 20px;
-      
+
         width: 320px;
-      
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-      }
+    }
 
-      .ap-banner-texts p br{
+    .ap-banner-texts p br {
         display: none;
-      }
+    }
 
-    .ap-banner-media-bg{
+    .ap-banner-media-bg {
         width: 400px;
         height: 480px;
         margin: 0 auto 75px auto;
-      }
-      
-    .ap-banner-media-bg-img{
+    }
+
+    .ap-banner-media-bg-img {
         width: 400px;
         height: 480px;
         position: absolute;
 
         object-fit: cover;
         object-position: 57% 50%;
-      
+
         margin: 0;
 
-        
-        -webkit-mask: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 1) 10%,
-        rgba(255, 255, 255, 1) 100%,
-        rgba(255, 255, 255, 0) 100%
-        );
-      }
-     
-    .ap-banner-media-trailer{
+
+        -webkit-mask: linear-gradient(to left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 10%,
+                rgba(255, 255, 255, 1) 100%,
+                rgba(255, 255, 255, 0) 100%);
+    }
+
+    .ap-banner-media-trailer {
         width: 338px;
         height: 190px;
 
         margin-top: 40px;
-      
+
         z-index: 1;
-      }
+    }
 
     .ap-gameplay-section-1,
     .ap-gameplay-section-2,
-    .ap-gameplay-section-3{
+    .ap-gameplay-section-3 {
         width: 340px;
         height: 550px;
 
@@ -2058,23 +2485,258 @@
         align-items: center;
     }
 
-    .ap-gameplay-texts{
+    .ap-gameplay-texts {
         width: 280px;
         margin: 50px auto 0 auto;
 
         text-align: center;
         align-items: center;
-      }
+    }
 
-      .ap-gameplay-texts p{
+    .ap-gameplay-texts p {
         font-size: 14px;
         line-height: 20px;
-      }
+    }
 
-      .ap-gameplay-video{
+    .ap-gameplay-video {
         margin: 30px auto 50px auto;
         width: 300px;
         height: 169px;
+    }
+
+    /**********ABOUT US PAGE***********/
+    .au-main-section {
+        width: 380px;
+    }
+
+    .au-main-section-container {
+        width: 380px;
+        height: 540px;
+
+        margin: 50px auto auto auto;
+    }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2 {
+        width: 400px;
+    }
+
+    .au-main-section-img-1 {
+        height: 647px;
+        object-fit: cover;
+    }
+
+    .au-main-section-img-2 {
+        margin-top: 275px;
+    }
+
+    .au-main-section-texts {
+        width: 200px;
+        margin: 170px auto auto auto;
+    }
+
+    .au-main-section-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 56px;
+        margin: 0 0 0 0;
+
+        line-height: 60px;
+    }
+
+    .au-main-section-texts p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .au-proc-section {
+        width: 380px;
+        margin: 140px auto;
+    }
+
+    .au-proc {
+        width: 380px;
+        height: auto;
+    }
+
+    .au-proc-section h2{
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+      
+        margin: 0 0 10px 0;
       }
+
+    .au-proc-row {
+        width: 380px;
+        height: 700px;
+
+        flex-direction: column;
+
+        margin-top: 50px;
+    }
+
+    .au-proc-cat {
+        width: 300px;
+        height: 310px;
+
+        object-fit: cover;
+    }
+
+    .au-proc-row .au-proc-cat {
+        order: 1;
+    }
+
+    .au-proc-row .au-proc-text {
+        order: 2;
+    }
+
+    .au-proc-text,
+    .au-proc-bg {
+        width: 380px;
+        height: 258px;
+    }
+
+    .au-proc-text p {
+        font-family: 'Dongle', sans-serif;
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .au-proc-p1 {
+        width: 300px;
+        height: 140px;
+    }
+
+    .au-proc-p2 {
+        width: 340px;
+        height: 150px;
+
+        padding-top: 35px;
+    }
+
+    .au-proc-p3 {
+        width: 343px;
+        height: 150px;
+
+        padding-bottom: 35px;
+    }
+
+    .au-research-img {
+        width: 360px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 360px;
+        margin: 200px auto 100px auto;
+    }
+
+    #au-research-texts {
+        width: 280px;
+        height: 420px;
+
+        overflow: hidden;
+    }
+
+    .au-research-section h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+        color: var(--brown);
+        
+        margin: 50px 0 10px 0;
+      }
+
+    .au-research-section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+        line-height: 24px;
+      
+        margin: 15px 0 45px 0;
+      }
+
+    .au-research-section h4{
+        width: 340px;
+        flex-wrap: nowrap;
+
+        overflow: inherit;
+    }
+
+    .au-pangcat-section {
+        width: 400px;
+        margin: 75px auto 100px auto;
+    }
+
+    .au-pangcat-section-texts {
+        width: 340px;
+        margin: 100px auto 0 auto;
+    }
+
+    .au-pangcat-section-texts h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        width:340px;
+        
+        margin: 0;
+      
+        line-height: 36px;
+      }
+
+      .au-pangcat-section-texts p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+      
+        margin: 30px 0 0 0;
+      
+        line-height: 24px;
+      }
+      
+
+    .au-team-section {
+        width: 360px;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 340px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 340px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+      }
+
+
+    .line-separator {
+        width: 300px;
+    }
 
 }
