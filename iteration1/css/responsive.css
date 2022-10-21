@@ -37,6 +37,23 @@
         margin: auto;
     }
 
+    /**********ABOUR US PAGE***********/
+    .au-research-img{
+        width: 1200px;
+        height: auto;
+    }
+    
+    .au-proc-section{
+        width:1200px;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        margin: 100px auto;
+    }
+
 }
 
 @media (max-width: 1240px) {
@@ -170,6 +187,152 @@
         width:476px;
         height: 268px;
       }
+
+    /**********ABOUR US PAGE***********/
+    .au-main-section-container {
+        width: 990px;
+        height: 650px;
+      
+        margin: 50px auto auto auto;
+      }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2{
+        width: 990px;
+    }
+
+    .au-main-section-img-1{
+        height: 647px;
+        object-fit: cover;
+    }
+    
+    .au-proc-section{
+        width:990px;      
+        margin: 100px auto;
+    }
+
+    .au-proc{
+        width: 990px;
+        height: 1394px;
+    }
+
+    .au-proc-row{
+        width: 990px;
+        height: 436px;
+    }
+
+    .au-proc-cat{
+        width: 380px;
+        height: 436px;
+    }
+
+    .au-proc-text, .au-proc-bg{
+        width: 610px;
+        height: 414px;
+    }
+
+    .au-proc-text p{
+        font-family: 'Dongle', sans-serif;
+        font-size: 40px;
+        line-height: 34px;
+        text-align: center;
+      }
+
+    .au-proc-p1{
+        width: 435px;
+        height: 205px;
+      
+        margin: 0;
+    }
+      
+      .au-proc-p2{
+        width: 478px;
+        height: 220px;
+      
+        padding-top: 50px;
+    }
+      
+    .au-proc-p3{
+        width: 488px;
+        height: 220px;
+      
+        padding-bottom: 50px;
+    }
+
+    .au-research-img{
+        width: 990px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 990px;
+        margin: 0 auto 100px auto;
+      }
+
+    #au-research-texts{
+        width: 860px;
+        height: 215px;
+      
+        overflow: hidden;
+    }
+
+    .au-pangcat-section{     
+        width: 990px;
+        margin: 75px auto 100px auto;
+      }
+
+    .au-pangcat-section-texts {
+        width: 860px;
+        margin: 150px auto 0 auto;
+      }
+
+    .au-team-section{
+        width: 990px;
+        margin: 50px auto 100px auto;
+      }
+    
+    .au-team-carousel-gallery{
+        width: 990px;
+        height: auto;
+        margin-top: 50px;
+      
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont{
+        width: 700px;
+        margin: auto;
+      
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1){
+        margin: 0 25px 25px 0;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2){
+        margin: 0 25px 25px 25px;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3){
+        margin: 0 0 25px 25px;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4){
+        margin: 25px 25px 0 auto;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5){
+        margin: 25px auto 0 25px;
+      }
+    
+    
 }
 
 @media (max-width: 1080px) {
@@ -358,6 +521,182 @@
         margin-right: 50px;
         width:400px;
         height: 225px;
+      }
+
+
+    /**********ABOUR US PAGE***********/
+    .au-main-section-container {
+        width: 860px;
+        height: 482px;
+
+        justify-content: flex-start;
+      
+        margin: 50px auto auto auto;
+      }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2{
+        width: 860px;
+    }
+
+    .au-main-section-img-1{
+        height: 647px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .au-main-section-texts {
+        width: 360px;
+        margin: 160px auto auto auto;
+      }
+
+      .au-main-section-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 96px;
+        margin: 0 0 0 0;
+      
+        line-height: 60px;
+      }
+
+      .au-main-section-texts p br{
+        display: none;
+      }
+      
+
+    .au-proc-section{
+        width:860px;      
+        margin: 100px auto;
+    }
+
+    .au-proc{
+        width: 860px;
+        height: 1211px;
+    }
+
+    .au-proc-row{
+        width: 860px;
+        height: 379px;
+    }
+
+    .au-proc-cat{
+        width: 330px;
+        height: 379px;
+    }
+
+    .au-proc-text, .au-proc-bg{
+        width: 530px;
+        height: 360px;
+    }
+
+    .au-proc-text p{
+        font-family: 'Dongle', sans-serif;
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+      }
+
+    .au-proc-p1{
+        width: 378px;
+        height: 175px;
+    }
+      
+      .au-proc-p2{
+        width: 415px;
+        height: 200px;
+      
+        padding-top: 50px;
+    }
+      
+    .au-proc-p3{
+        width: 438px;
+        height: 185px;
+      
+        padding-bottom: 50px;
+    }
+
+    .au-research-img{
+        width: 860px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 860px;
+        margin: 0 auto 100px auto;
+      }
+
+    #au-research-texts{
+        width: 760px;
+        height: 230px;
+      
+        overflow: hidden;
+    }
+
+    .au-pangcat-section{     
+        width: 860px;
+        margin: 75px auto 100px auto;
+      }
+
+    .au-pangcat-section-texts {
+        width: 760px;
+        margin: 150px auto 0 auto;
+      }
+
+    .au-pangcat-section-texts h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+        width: 500px;
+        
+        margin: 0 0 10px 0;
+      
+        line-height: 40px;
+    }
+
+    .au-team-section{
+        width: 860px;
+        margin: 50px auto 100px auto;
+      }
+    
+    .au-team-carousel-gallery{
+        width: 860px;
+        height: auto;
+        margin-top: 50px;
+      
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont{
+        width: 700px;
+        margin: auto;
+      
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1){
+        margin: 0 25px 25px 0;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2){
+        margin: 0 25px 25px 25px;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3){
+        margin: 0 0 25px 25px;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4){
+        margin: 25px 25px 0 auto;
+      }
+
+      .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5){
+        margin: 25px auto 0 25px;
       }
 
 }
