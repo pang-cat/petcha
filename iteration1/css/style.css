@@ -1116,6 +1116,13 @@ a:visited {
 
 #au-research-texts{
   width: 940px;
+  height: auto;
+
+  overflow: visible;
+}
+
+#au-research-texts-collapsed{
+  width: 940px;
   height: 215px;
 
   overflow: hidden;

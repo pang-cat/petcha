@@ -272,6 +272,10 @@
 
     #au-research-texts {
         width: 860px;
+    }
+
+    #au-research-texts-collapsed{
+        width: 860px;
         height: 215px;
 
         overflow: hidden;
@@ -627,6 +631,10 @@
     }
 
     #au-research-texts {
+        width: 760px;
+    }
+
+    #au-research-texts-collapsed {
         width: 760px;
         height: 230px;
 
@@ -1163,6 +1171,10 @@
     }
 
     #au-research-texts {
+        width: 560px;
+    }
+
+    #au-research-texts-collapsed{
         width: 560px;
         height: 290px;
 
@@ -1839,6 +1851,10 @@
     }
 
     #au-research-texts {
+        width: 340px;
+    }
+
+    #au-research-texts-collapsed{
         width: 340px;
         height: 350px;
 
@@ -2633,6 +2649,10 @@
     }
 
     #au-research-texts {
+        width: 280px;
+    }
+
+    #au-research-texts-collapsed{
         width: 280px;
         height: 420px;
 
