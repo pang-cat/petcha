@@ -2760,3 +2760,353 @@
     }
 
 }
+
+@media (max-width: 400px) {
+
+    /*****************ABOUT PETCHA PAGE******************/
+    .ap-banner-section {
+        margin-top: 50px;
+    }
+
+    .ap-banner-container {
+        width: 300px;
+    }
+
+    .ap-banner-texts {
+        color: var(--dark-gray);
+        flex-wrap: wrap;
+
+        width: 300px;
+    }
+
+    .ap-banner-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 56px;
+        margin: 0 0 10px 0;
+
+        line-height: 50px;
+    }
+
+    .ap-banner-texts p {
+        font-size: 14px;
+
+        line-height: 20px;
+
+        width: 260px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ap-banner-texts p br {
+        display: none;
+    }
+
+    .ap-banner-media-bg {
+        width: 300px;
+        height: 480px;
+        margin: 0 auto 75px auto;
+    }
+
+    .ap-banner-media-bg-img {
+        width: 300px;
+        height: 410px;
+        position: absolute;
+
+        object-fit: cover;
+        object-position: 57% 50%;
+
+        margin: 0;
+
+
+        -webkit-mask: linear-gradient(to left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 10%,
+                rgba(255, 255, 255, 1) 100%,
+                rgba(255, 255, 255, 0) 100%);
+    }
+
+    .ap-banner-media-trailer {
+        width: 300px;
+        height: 169px;
+
+        margin-top: 40px;
+
+        z-index: 1;
+    }
+
+    .ap-gameplay-section-1,
+    .ap-gameplay-section-2,
+    .ap-gameplay-section-3 {
+        width: 340px;
+        height: 550px;
+
+        margin: 100px auto 125px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ap-gameplay-texts {
+        width: 280px;
+        margin: 50px auto 0 auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .ap-gameplay-texts p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ap-gameplay-video {
+        margin: 30px auto 50px auto;
+        width: 300px;
+        height: 169px;
+    }
+
+    /**********ABOUT US PAGE***********/
+    .au-main-section {
+        width: 380px;
+    }
+
+    .au-main-section-container {
+        width: 380px;
+        height: 540px;
+
+        margin: 50px auto auto auto;
+    }
+
+    .au-main-section-img-1,
+    .au-main-section-img-2 {
+        width: 400px;
+    }
+
+    .au-main-section-img-1 {
+        height: 647px;
+        object-fit: cover;
+    }
+
+    .au-main-section-img-2 {
+        margin-top: 275px;
+    }
+
+    .au-main-section-texts {
+        width: 200px;
+        margin: 170px auto auto auto;
+    }
+
+    .au-main-section-texts h1 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 56px;
+        margin: 0 0 0 0;
+
+        line-height: 60px;
+    }
+
+    .au-main-section-texts p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .au-proc-section {
+        width: 380px;
+        margin: 140px auto;
+    }
+
+    .au-proc {
+        width: 380px;
+        height: auto;
+    }
+
+    .au-proc-section h2{
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+      
+        margin: 0 0 10px 0;
+      }
+
+    .au-proc-row {
+        width: 380px;
+        height: 700px;
+
+        flex-direction: column;
+
+        margin-top: 50px;
+    }
+
+    .au-proc-cat {
+        width: 300px;
+        height: 310px;
+
+        object-fit: cover;
+    }
+
+    .au-proc-row .au-proc-cat {
+        order: 1;
+    }
+
+    .au-proc-row .au-proc-text {
+        order: 2;
+    }
+
+    .au-proc-text,
+    .au-proc-bg {
+        width: 380px;
+        height: 258px;
+    }
+
+    .au-proc-text p {
+        font-family: 'Dongle', sans-serif;
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .au-proc-p1 {
+        width: 300px;
+        height: 140px;
+    }
+
+    .au-proc-p2 {
+        width: 340px;
+        height: 150px;
+
+        padding-top: 35px;
+    }
+
+    .au-proc-p3 {
+        width: 343px;
+        height: 150px;
+
+        padding-bottom: 35px;
+    }
+
+    .au-research-img {
+        width: 360px;
+        height: auto;
+    }
+
+    .au-research-section {
+        width: 360px;
+        margin: 200px auto 100px auto;
+    }
+
+    #au-research-texts {
+        width: 280px;
+    }
+
+    #au-research-texts-collapsed{
+        width: 280px;
+        height: 420px;
+
+        overflow: hidden;
+    }
+
+    .au-research-section h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        line-height: 32px;
+        color: var(--brown);
+        
+        margin: 50px 0 10px 0;
+      }
+
+    .au-research-section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+        line-height: 24px;
+      
+        margin: 15px 0 45px 0;
+      }
+
+    .au-research-section h4{
+        width: 340px;
+        flex-wrap: nowrap;
+
+        overflow: inherit;
+    }
+
+    .au-pangcat-section {
+        width: 400px;
+        margin: 75px auto 100px auto;
+    }
+
+    .au-pangcat-section-texts {
+        width: 340px;
+        margin: 100px auto 0 auto;
+    }
+
+    .au-pangcat-section-texts h2 {
+        font-family: 'Dongle', sans-serif;
+        font-size: 48px;
+        width:340px;
+        
+        margin: 0;
+      
+        line-height: 36px;
+      }
+
+      .au-pangcat-section-texts p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-indent: 50px;
+      
+        margin: 30px 0 0 0;
+      
+        line-height: 24px;
+      }
+      
+
+    .au-team-section {
+        width: 360px;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 340px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 340px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+      }
+
+
+    .line-separator {
+        width: 300px;
+    }
+
+}
