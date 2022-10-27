@@ -27,6 +27,8 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <!--Scroll Reveal js source-->
+  <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
@@ -181,6 +183,21 @@
   </section>
   <!-- end subfooter section -->
 
+
+  <!--Scroll Reveal Script-->
+  <script>
+    ScrollReveal({
+      reset: false,
+      distace: '60px',
+      duration: 2500,
+      delay: 400,
+    });
+
+    ScrollReveal().reveal('.ap-banner-container, .app-intro-container', { delay: 75});
+    ScrollReveal().reveal('.app-intro-dl-cont', { distance:'60px', delay: 300, origin: 'bottom' });
+    ScrollReveal().reveal('.ap-gameplay-section-1, .ap-gameplay-section-2, .ap-gameplay-section-3', { distance:'100px', delay: 100, origin: 'left' });
+    ScrollReveal().reveal('.ap-banner-media-bg', { distance:'30px', delay: 100, origin: 'bottom' });
+  </script>
 </body>
 
 </html>
