@@ -40,6 +40,9 @@
   <!-- AniCollection.css library -->
   <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
 
+  <!--Scroll Reveal js source-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
 
 </head>
 
@@ -241,6 +244,22 @@
               document.getElementById('moreLess').innerHTML = "false";
           }
       }
+  </script>
+
+  <!--Scroll Reveal Script-->
+  <script>
+    ScrollReveal({
+      reset: false,
+      distace: '60px',
+      duration: 2500,
+      delay: 400,
+    });
+
+    ScrollReveal().reveal('.au-main-section-container, .au-research-img, .au-pangcat-section, .app-intro-container', { delay: 75});
+    ScrollReveal().reveal('.au-proc-row:nth-of-type(1), .au-proc-row:nth-of-type(3)', { distance:'30px', delay: 300, origin: 'left' });
+    ScrollReveal().reveal('.au-proc-row:nth-of-type(2)', { distance:'100px', delay: 300, origin: 'right' });
+    ScrollReveal().reveal('.au-proc-section h2, .au-team-section h2', { distance:'60px', delay: 20, origin: 'bottom' });
+    ScrollReveal().reveal('.au-research-section, .au-team-carousel-cont', { distance:'60px', delay: 20, origin: 'bottom' });
   </script>
 
 </body>
