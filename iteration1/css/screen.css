@@ -64,6 +64,8 @@ p{
         background-color: rgb(255, 172, 217);
     }
 
+}
+
 @media (max-width: 420px) {
     .container{
         width: 320px;
@@ -87,6 +89,34 @@ p{
         color: black;
         text-align: left;
         background-color: rgb(121, 243, 100);
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 280px;
+        background-color: rgb(111, 37, 222);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .shape{
+        width: 220px;
+        height: 100px;
+        background-color: red;
+    }
+    
+    p{
+        width: 100px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        background-color: rgb(53, 152, 240);
     }
 
 
