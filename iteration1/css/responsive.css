@@ -2872,11 +2872,11 @@
 
     /**********ABOUT US PAGE***********/
     .au-main-section {
-        width: 380px;
+        width: 300px;
     }
 
     .au-main-section-container {
-        width: 380px;
+        width: 300px;
         height: 540px;
 
         margin: 50px auto auto auto;
@@ -2884,7 +2884,7 @@
 
     .au-main-section-img-1,
     .au-main-section-img-2 {
-        width: 400px;
+        width: 280px;
     }
 
     .au-main-section-img-1 {
@@ -2893,7 +2893,9 @@
     }
 
     .au-main-section-img-2 {
-        margin-top: 275px;
+        margin-top: 300px;
+        height: 185px;
+        object-fit: cover;
     }
 
     .au-main-section-texts {
@@ -2915,12 +2917,12 @@
     }
 
     .au-proc-section {
-        width: 380px;
+        width: 300px;
         margin: 140px auto;
     }
 
     .au-proc {
-        width: 380px;
+        width: 300px;
         height: auto;
     }
 
@@ -2928,13 +2930,14 @@
         font-family: 'Dongle', sans-serif;
         font-size: 48px;
         line-height: 32px;
+        text-align: center;
       
         margin: 0 0 10px 0;
       }
 
     .au-proc-row {
-        width: 380px;
-        height: 700px;
+        width: 300px;
+        height: 650px;
 
         flex-direction: column;
 
@@ -2942,8 +2945,8 @@
     }
 
     .au-proc-cat {
-        width: 300px;
-        height: 310px;
+        width: 260px;
+        height: 269px;
 
         object-fit: cover;
     }
@@ -2958,53 +2961,53 @@
 
     .au-proc-text,
     .au-proc-bg {
-        width: 380px;
-        height: 258px;
+        width: 300px;
+        height: 204px;
     }
 
     .au-proc-text p {
         font-family: 'Dongle', sans-serif;
-        font-size: 28px;
-        line-height: 24px;
+        font-size: 22px;
+        line-height: 18px;
         text-align: center;
     }
 
     .au-proc-p1 {
-        width: 300px;
-        height: 140px;
+        width: 260px;
+        height: 110px;
     }
 
     .au-proc-p2 {
-        width: 340px;
-        height: 150px;
+        width: 260px;
+        height: 120px;
 
         padding-top: 35px;
     }
 
     .au-proc-p3 {
-        width: 343px;
-        height: 150px;
+        width: 268px;
+        height: 100px;
 
         padding-bottom: 35px;
     }
 
     .au-research-img {
-        width: 360px;
+        width: 300px;
         height: auto;
     }
 
     .au-research-section {
-        width: 360px;
+        width: 300px;
         margin: 200px auto 100px auto;
     }
 
     #au-research-texts {
-        width: 280px;
+        width: 240px;
     }
 
     #au-research-texts-collapsed{
-        width: 280px;
-        height: 420px;
+        width: 220px;
+        height: 540px;
 
         overflow: hidden;
     }
@@ -3028,26 +3031,26 @@
       }
 
     .au-research-section h4{
-        width: 340px;
+        width: 220px;
         flex-wrap: nowrap;
 
         overflow: inherit;
     }
 
     .au-pangcat-section {
-        width: 400px;
+        width: 300px;
         margin: 75px auto 100px auto;
     }
 
     .au-pangcat-section-texts {
-        width: 340px;
+        width: 260px;
         margin: 100px auto 0 auto;
     }
 
     .au-pangcat-section-texts h2 {
         font-family: 'Dongle', sans-serif;
         font-size: 48px;
-        width:340px;
+        width:220px;
         
         margin: 0;
       
@@ -3066,12 +3069,12 @@
       
 
     .au-team-section {
-        width: 360px;
+        width: 300px;
         margin: 50px auto 100px auto;
     }
 
     .au-team-carousel-gallery {
-        width: 340px;
+        width: 300px;
         height: auto;
         margin-top: 40px;
 
@@ -3081,7 +3084,7 @@
     }
 
     .au-team-carousel-cont {
-        width: 340px;
+        width: 300px;
         margin: auto;
 
         display: flex;
@@ -3106,7 +3109,7 @@
 
 
     .line-separator {
-        width: 300px;
+        width: 240px;
     }
 
 }
