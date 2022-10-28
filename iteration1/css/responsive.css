@@ -897,7 +897,7 @@
 
     .app-intro {
         width: 700px;
-        height: 360px;
+        height: 400px;
     }
 
     .app-intro-box,
@@ -912,6 +912,13 @@
 
     .apk-info-box {
         height: 360px;
+    }
+
+    .apk-info-box .button-text{
+        text-align: center;
+        width:160px;
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .apk-info {
@@ -1526,7 +1533,7 @@
 
     .app-intro {
         width: 460px;
-        height: 340px;
+        height: 400px;
     }
 
     .app-intro-box,
@@ -1554,6 +1561,13 @@
 
     .apk-info-box {
         height: 480px;
+    }
+
+    .apk-info-box .button-text{
+        text-align: center;
+        width:200px;
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .apk-row {
@@ -2298,7 +2312,7 @@
 
     .app-intro {
         width: 360px;
-        height: 340px;
+        height: 420px;
     }
 
     .app-intro-box,

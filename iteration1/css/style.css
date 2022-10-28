@@ -703,17 +703,22 @@ a:visited {
   font-size: 18px;
   font-weight: 700;
 
-  margin: 0;
+  margin: 30px 0 0 0;
 }
 
-.download_section p {
+.download_section {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-.app-intro p,
+.app-intro .description,
 .apk-info p {
   font-size: 16px;
+}
+
+.note{
+  font-size: 14px;
+  color: var(--orange)
 }
 
 
@@ -733,7 +738,7 @@ a:visited {
 
 .app-intro-row {
   display: flex;
-  margin: 40px 0 50px 0;
+  margin: 40px 0 0 0;
 }
 
 .app-logo {
