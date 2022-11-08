@@ -38,8 +38,22 @@ a:visited {
   width: 100%;
   height: 96px;
 
-  margin: 0;
+  position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 9999;
+	transition: all 300ms ease-in-out;
 }
+
+.scroll-down .header{
+		transform: translate3d(0, -100px, 0);
+}
+
+.scroll-up .header{
+		filter: drop-shadow(0 4px 10px #5f4d4221);
+}
+
+
 
 .nav-container {
   display: flex;
