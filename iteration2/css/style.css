@@ -1479,7 +1479,7 @@ a:visited {
 /****************ABOUT PETCHA PAGE****************/
 
 .ap-banner-section {
-  margin-top: 96px;
+  margin-top: 192px;
 }
 
 .ap-banner-container {
@@ -1666,6 +1666,14 @@ a:visited {
   margin-right: 75px;
   width:476px;
   height: 268px;
+}
+
+.ap-gameplay-section-2 .ap-gameplay-texts{
+  margin: 0 75px 0 0;
+}
+
+.ap-gameplay-section-2 .ap-gameplay-video{
+  margin: 0 0 0 75px;
 }
 
 .ap-gameplay-separator{
