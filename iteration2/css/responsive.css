@@ -652,7 +652,7 @@
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
-        margin-top: 96px;
+        margin-top: 192px;
     }
 
     .ap-banner-container {
@@ -1232,7 +1232,7 @@
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
-        margin-top: 75px;
+        margin-top: 275px;
     }
 
     .ap-banner-container {
@@ -1984,7 +1984,7 @@
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
-        margin-top: 50px;
+        margin-top: 250px;
     }
 
     .ap-banner-container {
@@ -2872,7 +2872,7 @@
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
-        margin-top: 50px;
+        margin-top: 250px;
     }
 
     .ap-banner-container {
@@ -3306,7 +3306,7 @@
 
     /*****************ABOUT PETCHA PAGE******************/
     .ap-banner-section {
-        margin-top: 50px;
+        margin-top: 250px;
     }
 
     .ap-banner-container {
@@ -3324,6 +3324,7 @@
         font-family: 'Dongle', sans-serif;
         font-size: 56px;
         margin: 0 0 10px 0;
+        text-align: center;
 
         line-height: 50px;
     }
