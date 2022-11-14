@@ -276,7 +276,7 @@
 
     #au-research-texts-collapsed{
         width: 860px;
-        height: 215px;
+        height: 250px;
 
         overflow: hidden;
     }
@@ -636,7 +636,7 @@
 
     #au-research-texts-collapsed {
         width: 760px;
-        height: 230px;
+        height: 280px;
 
         overflow: hidden;
     }
@@ -1183,7 +1183,7 @@
 
     #au-research-texts-collapsed{
         width: 560px;
-        height: 290px;
+        height: 380px;
 
         overflow: hidden;
     }
@@ -1869,7 +1869,7 @@
 
     #au-research-texts-collapsed{
         width: 340px;
-        height: 350px;
+        height: 400px;
 
         overflow: hidden;
     }
@@ -1886,7 +1886,7 @@
     .au-research-section p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 28px;
       
         margin: 15px 0 45px 0;
       }
