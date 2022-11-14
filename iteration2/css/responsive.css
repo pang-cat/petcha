@@ -188,6 +188,7 @@
         height: 268px;
     }
 
+
     /**********ABOUT US PAGE***********/
     .au-main-section-container {
         width: 990px;
@@ -526,6 +527,14 @@
         margin-right: 50px;
         width: 400px;
         height: 225px;
+    }
+
+    .ap-gameplay-section-2 .ap-gameplay-texts{
+        margin: 0 50px 0 0;
+    }
+      
+    .ap-gameplay-section-2 .ap-gameplay-video{
+        margin: 0 0 0 50px;
     }
 
 
@@ -1057,6 +1066,15 @@
         margin: 30px auto 50px auto;
         width: 400px;
         height: 225px;
+    }
+
+    .ap-gameplay-section-2 .ap-gameplay-texts{
+        margin: 0 0 0 0;
+    }
+      
+    .ap-gameplay-section-2 .ap-gameplay-video{
+        margin: 30px 0 0 0;
+        order: 2;
     }
 
 
