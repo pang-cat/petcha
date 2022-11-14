@@ -1190,9 +1190,8 @@
 
     .au-research-section h4{
         width: 560px;
-        flex-wrap: nowrap;
-
-        overflow: inherit;
+        /*flex-wrap: nowrap;
+        overflow: inherit;*/
     }
 
     .au-pangcat-section {
@@ -1887,7 +1886,6 @@
     .au-research-section p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
         line-height: 24px;
       
         margin: 15px 0 45px 0;
@@ -1895,9 +1893,11 @@
 
     .au-research-section h4{
         width: 340px;
-        flex-wrap: nowrap;
+    }
 
-        overflow: inherit;
+    .p-bold{
+        white-space: nowrap;
+        margin-right:100px;
     }
 
     .au-pangcat-section {
@@ -1923,7 +1923,6 @@
       .au-pangcat-section-texts p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
       
         margin: 30px 0 0 0;
       
@@ -2685,17 +2684,13 @@
     .au-research-section p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
         line-height: 24px;
       
         margin: 15px 0 45px 0;
       }
 
     .au-research-section h4{
-        width: 340px;
-        flex-wrap: nowrap;
-
-        overflow: inherit;
+        width: 300px;
     }
 
     .au-pangcat-section {
@@ -2721,7 +2716,6 @@
       .au-pangcat-section-texts p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
       
         margin: 30px 0 0 0;
       
@@ -3038,7 +3032,6 @@
     .au-research-section p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
         line-height: 24px;
       
         margin: 15px 0 45px 0;
@@ -3046,9 +3039,6 @@
 
     .au-research-section h4{
         width: 220px;
-        flex-wrap: nowrap;
-
-        overflow: inherit;
     }
 
     .au-pangcat-section {
@@ -3074,7 +3064,6 @@
       .au-pangcat-section-texts p {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        text-indent: 50px;
       
         margin: 30px 0 0 0;
       
