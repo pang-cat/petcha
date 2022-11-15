@@ -13,6 +13,7 @@
   <meta name="author" content="" />
 
   <title>About Us</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
 
 
@@ -23,7 +24,8 @@
   <!-- fonts style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
   <!-- font wesome stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Custom styles for this template -->
@@ -37,8 +39,28 @@
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
 
   <!-- AniCollection.css library -->
-  <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+  <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
 
+  <!--Scroll Reveal js source-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!--Fix Navbar error on reload-->
+  <style>
+    body {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      jQuery('body').css({ 'overflow': 'auto', 'position': 'static' });
+      window.scrollTo(0, 0);
+    };
+  </script>
 
 </head>
 
@@ -46,26 +68,31 @@
   <!-- header section strats -->
   <div class="header">
     <div class="nav-container">
-        <ul class="nav-list">
-            <li class="brand"><a href="index.html"><img class="logo" src="images/logo.svg"><span>PetCha</span></a></li>
-            <li class="nav-item"><a href="index.html#index-feature">Features</a></li>
-            <li class="nav-item"><a href="about-us.html">About Us</a></li>
-            <li class="nav-item"><a href="about-petcha.html">About PetCha</a></li>
-            <li class="download-button"><a href="download-apk.html"><div class="button-box"><span class="button-text">Download Petcha</span></div></a></li>
-        </ul>
+      <ul class="nav-list">
+        <li class="brand"><a href="index.html"><img class="logo" src="images/logo-50x50.png"><span>PetCha</span></a>
+        </li>
+        <li class="nav-item"><a href="index.html#index-feature">Features</a></li>
+        <li class="nav-item"><a href="about-us.html">About Us</a></li>
+        <li class="nav-item"><a href="about-petcha.html">How it Works</a></li>
+        <li class="download-button"><a href="download-apk.html">
+            <div class="button-box"><span class="button-text">Download Petcha</span></div>
+          </a></li>
+      </ul>
     </div>
-</div>
+  </div>
 
 
   <!-- banner content -->
   <div class="au-main-section">
     <div class="au-main-section-container">
-        <img class="au-main-section-img" src="images/img-au-banner.png">
+      <img class="au-main-section-img-1" src="images/img-au-banner-cat.png">
+      <img class="au-main-section-img-2" src="images/img-au-banner-us.png">
 
-        <div class="au-main-section-texts">
-          <h1>About PetCha</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </div>
+      <div class="au-main-section-texts">
+        <h1>About Us</h1>
+        <p>Coming together to strategize and develop your <br>Productivity Companion, the team behind PetCha<br> has got
+          your back!</p>
+      </div>
     </div>
 
     <div class="line-separator"></div>
@@ -75,36 +102,90 @@
 
   <!-- about study contents -->
 
-  <div class="au-study-section-texts">
-    <h2>Procrastination</h2>
-    <p>Shatz (2018) describes procrastination as "a state of mind where someone acts against their better judgment, due to a lack of sufficient self-control." Moreover, procrastination is considered to be unintentional and irrational. Procrastinators are not lazy. They only need to understand their reasoning behind procrastination in order to manage it better (Tala, 2016).</p>
-    <p>According to Ph.D. Psychologist Linda Sapadin, procrastination is an unresolved approach to avoid conflict and so you are torn between two impulses, which is whether to do it or not to do it. So that uncertainty makes it hard to choose a clear commitment to action.</p>
-    <p>Procrastination is natural, especially if you have an important task to do; you find it difficult but doing so makes you more creative because you're subconsciously collecting ideas and processing how to complete the task. It helps give light on which task is more important because purpose and passion will help you overcome procrastination hurdles; it makes you realize that you are working on the wrong thing. Procrastination, then, becomes your savior to making better decisions. You are ready to decide as you've done your project by the time the deadline arrives.</p>
+  <div class="au-proc-section">
+
+    <h2>What is Procrastination?</h2>
+
+    <div class="au-proc">
+      <div class="au-proc-row">
+        <img class="au-proc-cat" src="images/img-au-procratination-cat-1.png">
+        <div class="au-proc-text">
+          <img class="au-proc-bg" src="images/img-au-procratination-bg-1.png">
+
+          <p class="au-proc-p1">Procrastination is a state of mind where someone acts against their better judgment, due
+            to a lack of sufficient self-control. <br>(Shatz, 2018)</p>
+        </div>
+      </div>
+
+      <div class="au-proc-row">
+        <div class="au-proc-text">
+          <img class="au-proc-bg" src="images/img-au-procratination-bg-2.png">
+
+          <p class="au-proc-p2">It is considered to be unintentional and irrational. Procrastinators are not lazy. They
+            only need to understand their reasoning behind procrastination in order to manage it better. <br>(Tala,
+            2016)</p>
+        </div>
+        <img class="au-proc-cat" src="images/img-au-procratination-cat-2.png">
+      </div>
+
+      <div class="au-proc-row">
+        <img class="au-proc-cat" src="images/img-au-procratination-cat-3.png">
+        <div class="au-proc-text">
+          <img class="au-proc-bg" src="images/img-au-procratination-bg-3.png">
+
+          <p class="au-proc-p3">Procrastination is natural especially when you have an important yet difficult task to
+            do, however, it helps give light on which task is more manageable because you've been subconsciously
+            collecting ideas and processing how to complete the task.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="au-study-section-texts">
-      <h2>Our Research</h2>
-      <p>Introduction. The implementation of community quarantine due to the COVID-19 pandemic has led schools to transition from traditional learning to remote learning, creating a shift in learning behaviors of the students. Because of this, the researchers have conducted a study titled "Procrast-Innate: Behavioral Patterns and Procrastination Tendencies of Arts and Design Students During Online Classes" that aims to understand and describe behavioral patterns of Arts and Design Students that may have influenced their procrastination habits during the pandemic, including the underlying factors that shaped these.
+  <div class="au-research-section" id="au-research-section">
+    <h2>Our Research</h2>
+    <div id="au-research-texts-collapsed">
+      <p>Introduction. The implementation of community quarantine due to the COVID-19 pandemic has led schools to
+        transition from traditional learning to remote learning, creating a shift in learning behaviors of the students.
+        Because of this, the researchers have conducted a study titled <span>"Procrast-Innate: Behavioral Patterns and
+          Procrastination Tendencies of Arts and Design Students During Online Classes"</span> that aims to understand
+        and describe behavioral patterns of Arts and Design Students that may have influenced their procrastination
+        habits during the pandemic, including the underlying factors that shaped these.
       </p>
-      <p>Methodology. A two-week data gathering via survey questionnaire and online interview has been done by the researchers from various art schools in Metro Manila to assess each student's point of view about procrastination and how or why they have led to procrastination. To further analyze the data gathered, the researchers will be utilizing cross analysis.</p>
-      <p>Results. Given the online set-up, participants often put off tasks and delay them further when deadlines seem incomprehensible and unrealistic, which proves Lesser's 2018 research and contradicts Naved et al. (2017) research. Most participants have also expressed that lack of social interaction in the pandemic has affected their mental well-being, causing their ability to do tasks properly. However, most participants have also overcome it by coming up with strategies that aid them in completing tasks by rewarding themselves, planning ahead and taking breaks &#8212; supporting the findings of Kauffman & Gregoire (2016).</p>
-      <p>Conclusion. A summarized statistical data and themes in the key findings of the study will express the specific factors that contribute to the reasons why Arts and Design College Students tend to procrastinate.</p>
-      
-      <div class="au-study-section-tags">
-        <h4><span class="p-bold">Keywords:</span>Procrastination, Arts and Design, Pandemic, Online Learning, Procrastinator, Creativity</h4>
-        <h4><span class="p-bold">Paper Type:</span> </h4>
+      <p>Methodology. A two-week data gathering via survey questionnaire and online interview has been done by the
+        researchers from various art schools in Metro Manila to assess each student's point of view about
+        procrastination and how or why they have led to procrastination. To further analyze the data gathered, the
+        researchers will be utilizing cross analysis.</p>
+      <p>Results. Given the online set-up, participants often put off tasks and delay them further when deadlines seem
+        incomprehensible and unrealistic, which proves Lesser's 2018 research and contradicts Naved et al. (2017)
+        research. Most participants have also expressed that lack of social interaction in the pandemic has affected
+        their mental well-being, causing their ability to do tasks properly. However, most participants have also
+        overcome it by coming up with strategies that aid them in completing tasks by rewarding themselves, planning
+        ahead and taking breaks &#8212; supporting the findings of Kauffman & Gregoire (2016).</p>
+      <p>Conclusion. A summarized statistical data and themes in the key findings of the study will express the specific
+        factors that contribute to the reasons why Arts and Design College Students tend to procrastinate.</p>
+
+      <div class="au-research-section-tags">
+        <h4><span class="p-bold">Keywords:</span>Procrastination, Arts and Design, Pandemic, Online Learning,
+          Procrastinator, Creativity</h4>
+        <h4><span class="p-bold">Paper Type:</span> Mixed method Non-experimental Research</h4>
       </div>
+    </div>
+
+    <a id="research-read-more" href="#au-research-section" onClick="readMoreLess()">Read more</a>
+    <p id="moreLess" hidden="true">false</p>
+
   </div>
+
+  <img class="au-research-img" src="images/img-abt-research.png">
 
   <!-- study contents end -->
 
   <!-- about pangcat-->
   <div class="au-pangcat-section">
-    <img class="au-pangcat-section-img" src="images/.png">
-
     <div class="au-pangcat-section-texts">
-      <h2>About PangCat</h2>
-      <p>The developers of this project go by the name of PangCat. Hailing from De La Salle - College of Saint Benilde, all five of the PangCat members are taking AB in Multimedia Arts, allowing them to come up with a project that fits the description of the interests and skills they are passionate about. PangCat developed PetCha for their CAPSTONE project and thesis, focusing on the effect of procrastination of Arts and Design students like themselves during the COVID-19 Pandemic.</p>
+      <h2>Meet the creative minds behind PetCha!</h2>
+      <p>The developers of this project go by the name of PangCat. Hailing from De La Salle-College of Saint Benilde,
+        all five of the PangCat members are taking AB in Multimedia Arts, allowing them to come up with a project that fits the description of the interests and skills they are passionate about. PangCat developed PetCha for their CAPSTONE project and thesis, focusing on the effects of procrastination of Arts and Design students like themselves during the COVID-19 Pandemic.</p>
     </div>
   </div>
 
@@ -113,91 +194,175 @@
   <!-- our team section-->
   <div class="au-team-section">
 
-    <div class="au-team-section-texts">
-      <h2>Our Team</h2>
-    </div>
+    <h2 class="au-team-section-h2">PangCat Members</h2>
 
     <div class="au-team-carousel-gallery">
       <div class="au-team-carousel-cont">
 
-        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Louise Agustin</p></div><img class="au-team-pic" src="images/chloe.png"><p class="au-team-name">Graphic Designer</p></div>
+        <div class="au-team-carousel-card">
+          <div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated"
+            class="au-team-card-cover">
+            <p class="au-team-name">Louise Agustin</p>
+          </div><img class="au-team-pic" src="images/chloe.png">
+          <p class="au-team-name">Web & Graphic<br>Designer</p>
+        </div>
 
-        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Hannah Barredo</p></div><img class="au-team-pic" src="images/hannah.jpg"><p class="au-team-name">Copywriter & <br>Content Manager</p></div>
+        <div class="au-team-carousel-card">
+          <div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated"
+            class="au-team-card-cover">
+            <p class="au-team-name">Hannah Barredo</p>
+          </div><img class="au-team-pic" src="images/hannah.png">
+          <p class="au-team-name">Copywriter & <br>Content Manager</p>
+        </div>
 
-        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Rae Cayabyab</p></div><img class="au-team-pic" src="images/rae.png"><p class="au-team-name">Web Developer</p></div>
+        <div class="au-team-carousel-card">
+          <div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated"
+            class="au-team-card-cover">
+            <p class="au-team-name">Rae Cayabyab</p>
+          </div><img class="au-team-pic" src="images/rae.png">
+          <p class="au-team-name">Web Developer</p>
+        </div>
 
-        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Chai Mendoza</p></div><img class="au-team-pic" src="images/chai.jpg"><p class="au-team-name">Game Developer</p></div>
+        <div class="au-team-carousel-card">
+          <div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated"
+            class="au-team-card-cover">
+            <p class="au-team-name">Chai Mendoza</p>
+          </div><img class="au-team-pic" src="images/chai.png">
+          <p class="au-team-name">Game Developer</p>
+        </div>
 
-        <div class="au-team-carousel-card"><div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated" class="au-team-card-cover"><p class="au-team-name">Jace Tapong</p></div><img class="au-team-pic" src="images/jace.png"><p class="au-team-name">Graphic Designer</p></div>
+        <div class="au-team-carousel-card">
+          <div data-anijs="if:mouseover, do: fadeIn animated; if:mouseleave, do: fadeOut animated"
+            class="au-team-card-cover">
+            <p class="au-team-name">Jace Tapong</p>
+          </div><img class="au-team-pic" src="images/jace.png">
+          <p class="au-team-name">Game Front-End<br>Designer</p>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- our team end-->
 
-
-
-    <!-- footer section -->
-    <section class="info_section layout_padding-top">
-      <div class="footer">
+  <!-- footer section -->
+  <section class="info_section layout_padding-top">
+    <div class="footer">
       <div class="footer-brand">
         <div class="footer-brand-img-cont">
-          <img class="footer-brand-logo" src="images/logo.svg">
+          <img class="footer-brand-logo" src="images/logo-20x20.png">
         </div>
         <span>PetCha</span>
       </div>
 
       <div class="footer-text">
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</span>
+        <span>PangCat would love to hear your insights so <br>we can deliver the best experience for you.</span>
+
+        <p class="footer-text-bold">Send us a message:</p>
+        <span><a href="mailto:pangcatpetcha@gmail.com" target="_blank">pangcatpetcha@gmail.com</a></span>
       </div>
 
-        <div class="footer_social-container">
-            <div class="social_container">
-               
-                <div class="social-box">
-                  <a href="">
-                    <img src="images/fb.png" alt="">
-                  </a>
-    
-                  <a href="">
-                    <img src="images/twitter.png" alt="">
-                  </a>
-                  <a href="">
-                    <img src="images/linkedin.png" alt="">
-                  </a>
-                  <a href="">
-                    <img src="images/instagram.png" alt="">
-                  </a>
-                </div>
-              </div>
+      <div class="footer_social-container">
+        <div class="social_container">
+
+          <div class="social-box">
+            <a href="https://twitter.com/AppPetCha" target="_blank">
+              <img src="images/twitter.svg">
+            </a>
+            <a href="https://www.instagram.com/app.petcha/" target="_blank">
+              <img src="images/instagram.svg">
+            </a>
+          </div>
         </div>
       </div>
-      </section>
-      <!-- end footer section -->
-
-<!-- subfooter section -->
-<section class="container-fluid footer_section">
-  <div class="subfooter">
-    <div class="subfooter-container">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <p>&copy; 2022 All Rights Reserved By PangCat</p>
     </div>
-  </div>
-</section>
-<!-- end subfooter section -->
+  </section>
+  <!-- end footer section -->
 
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- subfooter section -->
+  <section class="container-fluid footer_section">
+    <div class="subfooter">
+      <div class="subfooter-container">
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+        <p>&copy; 2022 All Rights Reserved By PangCat</p>
+      </div>
+    </div>
+  </section>
+  <!-- end subfooter section -->
 
-<!-----------------------SCRIPTSSSSS--------------------------->
-    <!--The core library-->
-    <script src="./src/anijs.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
 
-    <!--$addClass, $toggleClass or $removeClass-->
-    <script src="./src/helpers/dom/anijs-helper-dom.js"></script>
+  <!-----------------------SCRIPTSSSSS--------------------------->
 
-    <!--Scrollreveal helper-->
-    <script src="./src/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
+  
+  <!--The core library-->
+  <script src="./src/anijs.js"></script>
+
+  <!--$addClass, $toggleClass or $removeClass-->
+  <script src="./src/helpers/dom/anijs-helper-dom.js"></script>
+
+  <!--Scrollreveal helper-->
+  <script src="./src/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
+
+
+  <script>
+    function readMoreLess() {
+      var more = document.getElementById('moreLess').innerHTML;
+
+      if (more == "false") {
+        document.getElementById('au-research-texts-collapsed').id = "au-research-texts";
+        document.getElementById('research-read-more').innerHTML = "Read less";
+        document.getElementById('moreLess').innerHTML = "true";
+      } else {
+        document.getElementById('au-research-texts').id = "au-research-texts-collapsed";
+        document.getElementById('research-read-more').innerHTML = "Read more";
+        document.getElementById('moreLess').innerHTML = "false";
+      }
+    }
+  </script>
+
+  <!--Scroll Reveal Script-->
+  <script>
+    ScrollReveal({
+      reset: false,
+      distace: '60px',
+      duration: 2500,
+      delay: 400,
+    });
+
+    ScrollReveal().reveal('.au-main-section-container, .au-research-img, .au-pangcat-section, .app-intro-container', { delay: 75 });
+    ScrollReveal().reveal('.au-proc-row:nth-of-type(1), .au-proc-row:nth-of-type(3)', { distance: '30px', delay: 300, origin: 'left' });
+    ScrollReveal().reveal('.au-proc-row:nth-of-type(2)', { distance: '30px', delay: 300, origin: 'right' });
+    ScrollReveal().reveal('.au-proc-section h2, .au-team-section h2', { distance: '60px', delay: 20, origin: 'bottom' });
+    ScrollReveal().reveal('.au-research-section, .au-team-carousel-cont', { distance: '60px', delay: 20, origin: 'bottom' });
+  </script>
+
+  <script>
+    const body = document.body;
+    let lastScroll = 0;
+
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll <= 0) {
+        body.classList.remove("scroll-up");
+        return;
+      }
+
+      if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+        body.classList.remove("scroll-up");
+        body.classList.add("scroll-down");
+      }
+
+      if (currentScroll < lastScroll && body.classList.contains("scroll-down")) {
+        body.classList.remove("scroll-down");
+        body.classList.add("scroll-up");
+      }
+
+      lastScroll = currentScroll;
+    });
+
+  </script>
 
 </body>
 
