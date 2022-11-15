@@ -1159,6 +1159,7 @@
     /******************DOWNLOAD PAGE******************/
     .download_section {
         width: 700px;
+        margin: 192px auto auto auto;
     }
 
     .app-intro {
@@ -1177,7 +1178,7 @@
     }
 
     .apk-info-box {
-        height: 360px;
+        height: 540px;
     }
 
     .apk-info-box .button-text{
@@ -1189,7 +1190,7 @@
 
     .apk-info {
         width: 700px;
-        height: 480px;
+        height: 600px;
         margin: 20px auto;
         flex-wrap: wrap;
     }
@@ -1200,7 +1201,7 @@
 
     .apk-info-table {
         width: 360px;
-        height: 360px;
+        height: 480px;
 
         padding: 0 40px 0 40px;
         margin: 0;
@@ -1908,7 +1909,7 @@
 
     .apk-info {
         width: 460px;
-        height: 600px;
+        height: 700px;
         margin: 20px auto;
         flex-wrap: wrap;
     }
@@ -1925,7 +1926,7 @@
     }
 
     .apk-row {
-        height: 460px;
+        height: 600px;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0;
@@ -1933,7 +1934,7 @@
 
     .apk-info-table {
         width: 320px;
-        height: 420px;
+        height: 600px;
 
         padding: 0 40px 0 40px;
         margin: 0;
@@ -1941,6 +1942,14 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .apk-click-links{
+        margin: 20px auto 0 0;
+    }
+
+    .apk-info a{
+        align-self: flex-start;
     }
 
     .apk-download-button {
@@ -2777,7 +2786,7 @@
 
     .apk-info {
         width: 360px;
-        height: 600px;
+        height: 700px;
         margin: 20px auto;
         flex-wrap: wrap;
     }
@@ -2787,7 +2796,7 @@
     }
 
     .apk-row {
-        height: 460px;
+        height: 600px;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0;
@@ -2795,7 +2804,7 @@
 
     .apk-info-table {
         width: 240px;
-        height: 420px;
+        height: 600px;
 
         padding: 0 40px 0 40px;
         margin: 0;
@@ -2814,7 +2823,13 @@
     .apk-download-button {
         margin-left: 0;
         margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
+
+    .how-to-install{
+        font-size: 14px;
+      }
 
     .apk-version {
         width: 360px;
