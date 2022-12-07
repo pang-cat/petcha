@@ -134,7 +134,7 @@ a:visited {
   text-decoration: underline;
 }
 
-.nav-item a.activepage {
+#nav-item-active {
   font-size: 18px;
   color: var(--orange);
   font-weight: 700;
