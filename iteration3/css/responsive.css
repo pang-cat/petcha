@@ -519,7 +519,7 @@
         width: 200px;
         position: absolute;
         margin: auto;
-        bottom: 2%;
+        top: 92%;
         z-index: 100;
       
         display: flex;
@@ -1011,7 +1011,7 @@
         width: 200px;
         position: absolute;
         margin: auto;
-        bottom: 2%;
+        top: 92%;
         z-index: 100;
       
       
@@ -2676,7 +2676,7 @@
         width: 200px;
         position: absolute;
         margin: auto;
-        bottom: 2%;
+        top: 92%;
         z-index: 100;
       
         display: flex;
@@ -3701,7 +3701,7 @@
         width: 200px;
         position: absolute;
         margin: auto;
-        bottom: 2%;
+        top: 92%;
         z-index: 100;
       
         display: flex;
