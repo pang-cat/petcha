@@ -1303,7 +1303,7 @@ a:visited {
 }
 
 .au-proc-p3 {
-   width: 480px;
+  width: 480px;
   height: 220px;
 
   padding-bottom: 20px;
@@ -1477,7 +1477,7 @@ a:visited {
   justify-content: center;
   align-items: center;
 
-  width: 940px;
+  width: 900px;
 
   margin: 150px auto 0 auto;
 }
