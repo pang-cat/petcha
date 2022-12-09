@@ -1336,6 +1336,22 @@ a:visited {
   overflow: hidden;
 }
 
+.au-research-section-h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--brown);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
 .au-research-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
