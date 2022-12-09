@@ -306,6 +306,21 @@ a:visited {
   filter: hue-rotate(200deg);
 }
 
+.arrow-down-left{
+  width: 30px;
+  height: 30px;
+  rotate: 90deg;
+
+  mix-blend-mode: darken;
+  filter: hue-rotate(200deg);
+
+  display: none;
+}
+
+#st-main{
+  width: 100%;
+}
+
 /**********HERO SECTION END***********/
 
 

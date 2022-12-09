@@ -1010,6 +1010,53 @@
         height: auto; /*tentative*/
         margin: 50px 0 0 0;
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        bottom: 2%;
+        z-index: 100;
+      
+        background-color: #FFF;
+        mix-blend-mode: darken;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .arrow-down{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      
+        display: block;
+      }
     
     /**********HERO SECTION END***********/
 
@@ -1187,7 +1234,7 @@
 
     .footer,
     .subfooter {
-        width: 700px;
+        width: 600px;
     }
 
     /******************DOWNLOAD PAGE******************/
@@ -2632,6 +2679,53 @@
                 rgba(255, 255, 255, 1) 100%,
                 rgba(255, 255, 255, 0) 100%);
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        bottom: 2%;
+        z-index: 100;
+      
+        background-color: #FFF;
+        mix-blend-mode: darken;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .arrow-down{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      
+        display: block;
+      }
     
     /**********HERO SECTION END***********/
 
@@ -3615,6 +3709,55 @@
                 rgba(255, 255, 255, 1) 100%,
                 rgba(255, 255, 255, 0) 100%);
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        bottom: 2%;
+        z-index: 100;
+      
+        background-color: #FFF;
+        mix-blend-mode: darken;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        display: none;
+      }
+      
+      .arrow-down{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        mix-blend-mode: darken;
+        filter: hue-rotate(200deg);
+      
+        display: none;
+      }
     
     /**********HERO SECTION END***********/
 
