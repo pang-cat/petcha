@@ -276,7 +276,7 @@ a:visited {
   width: 200px;
   position: absolute;
   margin: auto;
-  top: 92%;
+  top: 880px;
   z-index: 100;
 
   filter: drop-shadow(0 0 5px white);
