@@ -63,8 +63,14 @@
 
       <img class="hero-img" src="images/img-hero-img.png">
     </div>
+
+    <a class="scroll-to-main-btn" href="#st-main">
+      <div class="scroll-btn-bg"></div>
+      <img class="arrow-down-left" src="images/arrow-down.gif"><span>See more below</span><img class="arrow-down" src="images/arrow-down.gif">
+    </a>
   </div>
 
+  <div id="st-main"></div>
   <div class="landing-section">
     <div class="landing-container">
       <div class="landing-texts">
@@ -230,12 +236,13 @@
     ScrollReveal({
       reset: false,
       distace: '60px',
-      duration: 2500,
+      duration: 1000,
       delay: 400,
     });
 
     ScrollReveal().reveal('.landing-container, .features-container, .summary-container, .app-intro-container', { delay: 75 });
     ScrollReveal().reveal('.features-img, .summary-img', { distance: '30px', delay: 300, origin: 'bottom' });
+    ScrollReveal().reveal('.scroll-to-main-btn', { distance: '30px', delay: 700, origin: 'bottom' });
     ScrollReveal().reveal('.app-intro-dl-cont', { distance: '60px', delay: 300, origin: 'bottom' });
     ScrollReveal().reveal('.hero-img', { distance: '30px', delay: 100, origin: 'left' });
     ScrollReveal().reveal('.hero-section', { duration: 1500, delay: 75 });

@@ -62,7 +62,7 @@
 
     /**********ABOUR US PAGE***********/
     .au-research-img {
-        width: 1200px;
+        width: 990px;
         height: auto;
     }
 
@@ -335,40 +335,41 @@
 
     .au-proc-text p {
         font-family: 'Dongle', sans-serif;
-        font-size: 40px;
-        line-height: 34px;
+        font-size: 42px;
+        line-height: 36px;
         text-align: center;
     }
 
     .au-proc-p1 {
-        width: 435px;
+        width: 380px;
         height: 205px;
 
         margin: 0;
+        padding-top: 40px;
     }
 
     .au-proc-p2 {
-        width: 478px;
+        width: 440px;
         height: 220px;
 
-        padding-top: 50px;
+        padding-top: 70px;
     }
 
     .au-proc-p3 {
-        width: 488px;
+        width: 480px;
         height: 220px;
 
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .au-research-img {
-        width: 990px;
+        width: 860px;
         height: auto;
     }
 
     .au-research-section {
         width: 990px;
-        margin: 0 auto 100px auto;
+        margin: 0 auto 20px auto;
     }
 
     #au-research-texts {
@@ -514,6 +515,35 @@
         margin: 150px 0 0 auto;
     }
     
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        top: 880px;
+        z-index: 100;
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+      }
+      
+      .arrow-down{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      }
     /**********HERO SECTION END***********/
 }
 
@@ -787,32 +817,32 @@
     }
 
     .au-proc-p1 {
-        width: 378px;
+        width: 324px;
         height: 175px;
     }
 
     .au-proc-p2 {
-        width: 415px;
+        width: 380px;
         height: 200px;
 
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     .au-proc-p3 {
-        width: 438px;
+        width: 410px;
         height: 185px;
 
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .au-research-img {
-        width: 860px;
+        width: 760px;
         height: auto;
     }
 
     .au-research-section {
         width: 860px;
-        margin: 0 auto 100px auto;
+        margin: 0 auto 30px auto;
     }
 
     #au-research-texts {
@@ -976,6 +1006,49 @@
         height: auto; /*tentative*/
         margin: 50px 0 0 0;
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        top: 880px;
+        z-index: 100;
+      
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .arrow-down{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+
+        filter: hue-rotate(200deg);
+      
+        display: block;
+      }
     
     /**********HERO SECTION END***********/
 
@@ -1153,7 +1226,7 @@
 
     .footer,
     .subfooter {
-        width: 700px;
+        width: 600px;
     }
 
     /******************DOWNLOAD PAGE******************/
@@ -1501,34 +1574,35 @@
     }
 
     .au-proc-p1 {
-        width: 435px;
+        width: 380px;
         height: 205px;
 
         margin: 0;
+        padding-top: 60px;
     }
 
     .au-proc-p2 {
-        width: 478px;
+        width: 440px;
         height: 220px;
 
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     .au-proc-p3 {
-        width: 488px;
+        width: 480px;
         height: 220px;
 
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .au-research-img {
-        width: 680px;
+        width: 560px;
         height: auto;
     }
 
     .au-research-section {
         width: 640px;
-        margin: 200px auto 100px auto;
+        margin: 200px auto 20px auto;
     }
 
     #au-research-texts {
@@ -1537,7 +1611,7 @@
 
     #au-research-texts-collapsed{
         width: 560px;
-        height: 380px;
+        height: 340px;
 
         overflow: hidden;
     }
@@ -1555,7 +1629,7 @@
 
     .au-pangcat-section-texts {
         width: 560px;
-        margin: 150px auto 0 auto;
+        margin: 100px auto 0 auto;
     }
 
     .au-team-section {
@@ -2361,32 +2435,34 @@
     }
 
     .au-proc-p1 {
-        width: 300px;
+        width: 250px;
         height: 140px;
+
+        padding-top: 40px;
     }
 
     .au-proc-p2 {
-        width: 340px;
+        width: 300px;
         height: 150px;
 
-        padding-top: 35px;
+        padding-top: 50px;
     }
 
     .au-proc-p3 {
-        width: 343px;
+        width: 327px;
         height: 150px;
 
-        padding-bottom: 35px;
+        padding-bottom: 20px;
     }
 
     .au-research-img {
-        width: 400px;
+        width: 360px;
         height: auto;
     }
 
     .au-research-section {
         width: 400px;
-        margin: 200px auto 100px auto;
+        margin: 200px auto 30px auto;
     }
 
     #au-research-texts {
@@ -2395,10 +2471,19 @@
 
     #au-research-texts-collapsed{
         width: 340px;
-        height: 400px;
+        height: 340px;
 
         overflow: hidden;
     }
+
+    .au-research-section-h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--brown);
+      
+        margin: 20px auto 20px auto;
+      }
 
     .au-research-section h2 {
         font-family: 'Dongle', sans-serif;
@@ -2414,7 +2499,7 @@
         font-size: 14px;
         line-height: 28px;
       
-        margin: 15px 0 45px 0;
+        margin: 10px 0 30px 0;
       }
 
     .au-research-section h4{
@@ -2432,8 +2517,8 @@
     }
 
     .au-pangcat-section-texts {
-        width: 340px;
-        margin: 100px auto 0 auto;
+        width: 320px;
+        margin: 75px auto 0 auto;
     }
 
     .au-pangcat-section-texts h2 {
@@ -2586,6 +2671,48 @@
                 rgba(255, 255, 255, 1) 100%,
                 rgba(255, 255, 255, 0) 100%);
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        top: 880px;
+        z-index: 100;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .arrow-down{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      
+        display: block;
+      }
     
     /**********HERO SECTION END***********/
 
@@ -2627,6 +2754,12 @@
     .nav-item a:hover {
         font-size: 16px;
     }
+
+    #nav-item-active {
+        font-size: 16px;
+        color: var(--orange);
+        font-weight: 700;
+      }
 
     .download-button {
         width: 100px;
@@ -3338,32 +3471,34 @@
     }
 
     .au-proc-p1 {
-        width: 300px;
+        width: 250px;
         height: 140px;
+
+        padding-top: 40px;
     }
 
     .au-proc-p2 {
-        width: 340px;
+        width: 300px;
         height: 150px;
 
-        padding-top: 35px;
+        padding-top: 50px;
     }
 
     .au-proc-p3 {
-        width: 343px;
+        width: 327px;
         height: 150px;
 
-        padding-bottom: 35px;
+        padding-bottom: 10px;
     }
 
     .au-research-img {
-        width: 360px;
+        width: 300px;
         height: auto;
     }
 
     .au-research-section {
         width: 360px;
-        margin: 200px auto 100px auto;
+        margin: 200px auto 30px auto;
     }
 
     #au-research-texts {
@@ -3372,10 +3507,19 @@
 
     #au-research-texts-collapsed{
         width: 280px;
-        height: 420px;
+        height: 380px;
 
         overflow: hidden;
     }
+
+    .au-research-section-h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--brown);
+      
+        margin: 20px auto 20px auto;
+      }
 
     .au-research-section h2 {
         font-family: 'Dongle', sans-serif;
@@ -3391,7 +3535,7 @@
         font-size: 14px;
         line-height: 24px;
       
-        margin: 15px 0 45px 0;
+        margin: 10px 0 30px 0;
       }
 
     .au-research-section h4{
@@ -3404,8 +3548,8 @@
     }
 
     .au-pangcat-section-texts {
-        width: 340px;
-        margin: 100px auto 0 auto;
+        width: 320px;
+        margin: 50px auto 0 auto;
     }
 
     .au-pangcat-section-texts h2 {
@@ -3558,6 +3702,50 @@
                 rgba(255, 255, 255, 1) 100%,
                 rgba(255, 255, 255, 0) 100%);
     }
+
+    .scroll-to-main-btn{
+        width: 200px;
+        position: absolute;
+        margin: auto;
+        top: 92%;
+        z-index: 100;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .scroll-to-main-btn span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--dark-gray);
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        display: none;
+      }
+      
+      .arrow-down{
+        width: 25px;
+        height: 25px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      }
+
+      .arrow-down-left{
+        width: 20px;
+        height: 20px;
+        rotate: 90deg;
+      
+        filter: hue-rotate(200deg);
+      
+        display: none;
+      }
     
     /**********HERO SECTION END***********/
 
@@ -3776,32 +3964,34 @@
     }
 
     .au-proc-p1 {
-        width: 260px;
+        width: 200px;
         height: 110px;
+
+        padding-top: 30px;
     }
 
     .au-proc-p2 {
         width: 260px;
         height: 120px;
 
-        padding-top: 35px;
+        padding-top: 45px;
     }
 
     .au-proc-p3 {
         width: 268px;
         height: 100px;
 
-        padding-bottom: 35px;
+        padding-bottom: 20px;
     }
 
     .au-research-img {
-        width: 300px;
+        width: 280px;
         height: auto;
     }
 
     .au-research-section {
         width: 300px;
-        margin: 200px auto 100px auto;
+        margin: 200px auto 30px auto;
     }
 
     #au-research-texts {
@@ -3810,10 +4000,19 @@
 
     #au-research-texts-collapsed{
         width: 240px;
-        height: 480px;
+        height: 440px;
 
         overflow: hidden;
     }
+
+    .au-research-section-h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--brown);
+      
+        margin: 20px auto 20px auto;
+      }
 
     .au-research-section h2 {
         font-family: 'Dongle', sans-serif;
@@ -3829,7 +4028,7 @@
         font-size: 14px;
         line-height: 24px;
       
-        margin: 15px 0 45px 0;
+        margin: 10px 0 30px 0;
       }
 
     .au-research-section h4{
@@ -3838,12 +4037,12 @@
 
     .au-pangcat-section {
         width: 300px;
-        margin: 75px auto 100px auto;
+        margin: 50px auto 100px auto;
     }
 
     .au-pangcat-section-texts {
         width: 260px;
-        margin: 100px auto 0 auto;
+        margin: 75px auto 0 auto;
     }
 
     .au-pangcat-section-texts h2 {

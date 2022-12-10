@@ -134,6 +134,12 @@ a:visited {
   text-decoration: underline;
 }
 
+#nav-item-active {
+  font-size: 18px;
+  color: var(--orange);
+  font-weight: 700;
+}
+
 .download-button {
   width: 176px;
   height: 40px;
@@ -266,6 +272,64 @@ a:visited {
   margin: 20px 0 0 auto;
 }
 
+.scroll-to-main-btn{
+  width: 200px;
+  position: absolute;
+  margin: auto;
+  top: 880px;
+  z-index: 100;
+
+  filter: drop-shadow(0 0 5px white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.scroll-btn-bg{
+  width: 250px;
+  height: 50px;
+  background-color: var(--cream);
+  z-index: -1;
+
+  filter: blur(30px);
+
+  position: absolute;
+}
+
+.scroll-to-main-btn span{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--dark-gray);
+  padding-bottom: 5px;
+}
+
+.arrow-down{
+  width: 30px;
+  height: 30px;
+  rotate: 90deg;
+
+  filter: hue-rotate(200deg);
+}
+
+.arrow-down-left{
+  width: 30px;
+  height: 30px;
+  rotate: 90deg;
+
+  filter: hue-rotate(200deg);
+
+  display: none;
+}
+
+#st-main{
+  width: 100%;
+}
+
 /**********HERO SECTION END***********/
 
 
@@ -335,7 +399,7 @@ a:visited {
 /**********LANDING SECTION END***********/
 
 #index-feature {
-  margin: 0 0 140px 0;
+  margin: 0 0 50px 0;
 }
 
 /**********LANDING FEATURES SECTION***********/
@@ -986,7 +1050,7 @@ a:visited {
 
 .apk-version {
   width: 940px;
-  height: 200px;
+  height: 220px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -1009,7 +1073,7 @@ a:visited {
   display: flex;
   align-items: flex-end;
 
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .version-item {
@@ -1022,24 +1086,32 @@ a:visited {
   font-size: 16px;
   font-weight: 400;
 
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 
 .version-info {
   font-family: 'Open Sans', sans-serif;
   display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
 
   font-size: 12px;
   font-weight: 400;
-  height: 15px;
+  line-height: 12px;
+}
+
+.version-info-text {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .version-info-text2 {
   color: var(--orange);
   margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .download-icon {
@@ -1197,7 +1269,8 @@ a:visited {
 
 /*********/
 .au-proc-section {
-  width: 1394px;
+  /*width: 1394px;*/
+  width: 990px;
 
   display: flex;
   flex-direction: column;
@@ -1218,8 +1291,10 @@ a:visited {
 }
 
 .au-proc {
-  width: 1136px;
-  height: 1600px;
+  /*width: 1136px;
+  height: 1600px;*/
+  width: 990px;
+  height: 1394px;
 
   display: flex;
   flex-direction: column;
@@ -1228,8 +1303,10 @@ a:visited {
 }
 
 .au-proc-row {
-  width: 1136px;
-  height: 500px;
+ /* width: 1136px;
+ height: 500px;*/
+  width: 990px;
+  height: 436px;
 
   display: flex;
   justify-content: center;
@@ -1237,8 +1314,11 @@ a:visited {
 }
 
 .au-proc-cat {
-  width: 436px;
-  height: 500px;
+  /*width: 436px;
+  height: 500px;*/
+
+  width: 380px;
+  height: 436px;
 
   margin: 0;
 }
@@ -1253,16 +1333,19 @@ a:visited {
 }
 
 .au-proc-bg {
-  width: 700px;
-  height: 475px;
+  /*width: 700px;
+  height: 475px;*/
+
+  width: 610px;
+  height: 414px;
 
   position: absolute;
 }
 
 .au-proc-text p {
   font-family: 'Dongle', sans-serif;
-  font-size: 48px;
-  line-height: 40px;
+  font-size: 42px;
+  line-height: 36px;
   text-align: center;
 
   color: var(--brown);
@@ -1271,24 +1354,25 @@ a:visited {
 }
 
 .au-proc-p1 {
-  width: 545px;
-  height: 245px;
+  width: 380px;
+  height: 205px;
 
   margin: 0;
+  padding-top: 40px;
 }
 
 .au-proc-p2 {
-  width: 588px;
-  height: 245px;
+  width: 440px;
+  height: 220px;
 
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .au-proc-p3 {
-  width: 588px;
-  height: 245px;
+  width: 480px;
+  height: 220px;
 
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 
@@ -1302,7 +1386,7 @@ a:visited {
   width: 1160px;
   border-radius: 16px;
 
-  margin: 0 auto 100px auto;
+  margin: 0 auto 20px auto;
 
   background: linear-gradient(#F3E8D1, #f3e8d100);
 }
@@ -1330,6 +1414,22 @@ a:visited {
   overflow: hidden;
 }
 
+.au-research-section-h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--brown);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 30px auto 20px auto;
+}
+
 .au-research-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -1339,7 +1439,7 @@ a:visited {
   line-height: 36px;
   color: var(--brown);
 
-  margin: 30px 0 45px 0;
+  margin: 10px 0 30px 0;
 }
 
 .au-research-section span {
@@ -1391,7 +1491,7 @@ a:visited {
   justify-content: center;
   align-items: center;
 
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #research-read-more:hover {
@@ -1400,8 +1500,11 @@ a:visited {
 }
 
 .au-research-img {
-  width: 1394px;
-  height: 1230px;
+  /*width: 1394px;
+  height: 1230px;*/
+
+  width: 990px;
+  height: 880px;
 
   display: flex;
   margin: auto;
@@ -1419,7 +1522,7 @@ a:visited {
 
   width: 1160px;
 
-  margin: 75px auto 100px auto;
+  margin: 75px auto 50px auto;
 }
 
 /*.au-pangcat-section-img{
@@ -1440,7 +1543,7 @@ a:visited {
   justify-content: center;
   align-items: center;
 
-  width: 940px;
+  width: 900px;
 
   margin: 150px auto 0 auto;
 }
