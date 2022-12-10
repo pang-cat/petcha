@@ -2755,6 +2755,12 @@
         font-size: 16px;
     }
 
+    #nav-item-active {
+        font-size: 16px;
+        color: var(--orange);
+        font-weight: 700;
+      }
+
     .download-button {
         width: 100px;
         height: 32px;
